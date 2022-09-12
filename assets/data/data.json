@@ -1,0 +1,876 @@
+{
+    "CSS": {
+        "icon": "951077665698349186",
+        "items": [
+            {
+                "title": "Reset",
+                "links": [
+                    {
+                        "name": "Explications",
+                        "url": "https://youtu.be/l1rHL0d-7HE"
+                    }
+                ]
+            },
+            {
+                "title": "Flexbox",
+                "links": [
+                    {
+                        "name": "En 7 minutes",
+                        "url": "https://youtu.be/-FCW8oLvJ2Y"
+                    },
+                    {
+                        "name": "Cas pratiques d'utilisation",
+                        "url": "https://youtu.be/S3WECGYv_rQ"
+                    },
+                    {
+                        "name": "La doc MDN",
+                        "url": "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox"
+                    },
+                    {
+                        "name": "Exercices/Mini-jeu",
+                        "url": [
+                            "https://flexboxfroggy.com/",
+                            "https://mastery.games/flexboxzombies/"
+                        ]
+                    },
+                    {
+                        "name": "Cheatsheet",
+                        "url": "https://codepen.io/osublake/pen/dMLQJr"
+                    },
+                    {
+                        "name": "Créer une galerie responsive",
+                        "url": "https://youtu.be/XTTG7_iqX9c"
+                    },
+                    {
+                        "name": "Coder une Navbar",
+                        "url": "https://youtu.be/qNgO9rXb3-8"
+                    }
+                ]
+            },
+            {
+                "title": "Grid",
+                "links": [
+                    {
+                        "name": "Présentation",
+                        "url": "https://youtu.be/9gAdBAD1pCc"
+                    },
+                    {
+                        "name": "La doc MDN",
+                        "url": "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids"
+                    },
+                    {
+                        "name": "Exercices/Mini-jeu",
+                        "url": "https://cssgridgarden.com/"
+                    },
+                    {
+                        "name": "Page responsive avec CSS Grid + Flexbox",
+                        "url": "https://youtu.be/ho_niXFSUno"
+                    },
+                    {
+                        "name": "Coder une liste (de miniatures) responsive",
+                        "url": "https://youtu.be/o5nD0BB7uH0"
+                    },
+                    {
+                        "name": "Créer une galerie",
+                        "url": "https://youtu.be/vAs00R8aXUA"
+                    }
+                ]
+            },
+            {
+                "title": "Exercices CSS",
+                "links": [
+                    {
+                        "name": "30 Exercices en CSS",
+                        "info": "inscription newsletter",
+                        "url": "https://www.le-designer-du-web.com/news"
+                    },
+                    {
+                        "name": "Frontendmentor",
+                        "url": "https://www.frontendmentor.io/challenges?sort=difficulty%7Casc&types=free,free-plus"
+                    },
+                    {
+                        "name": "Flexbox",
+                        "url": "https://flexboxfroggy.com/"
+                    },
+                    {
+                        "name": "CSS Grid",
+                        "url": "https://cssgridgarden.com/"
+                    }
+                ]
+            }
+        ]
+    },
+    "Sass": {
+        "icon": "951077580616892416",
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Comprendre en 4 min",
+                        "url": "https://youtu.be/QXlggvsmhP0"
+                    },
+                    {
+                        "name": "Mise en place et fonctionnalités",
+                        "url": "https://www.youtube.com/playlist?list=PLpG9MHuD988gmtSEhWPdYvROBMpEpLk1S"
+                    },
+                    {
+                        "name": "La doc Sass",
+                        "url": "https://sass-lang.com/documentation"
+                    },
+                    {
+                        "name": "Cheatsheet",
+                        "url": "https://devhints.io/sass"
+                    }
+                ]
+            }
+        ]
+    },
+    "JavaScript": {
+        "icon": "951077635121893396",
+        "items": [
+            {
+                "title": "Exercices/Projets",
+                "links": [
+                    {
+                        "name": "11 idées de projet pour s'améliorer en JS",
+                        "url": "https://youtu.be/k20PPvAg_Oo"
+                    },
+                    {
+                        "name": "20 projets JavaScript",
+                        "info": "payant",
+                        "url": [
+                            "https://www.ecole-du-web.net/p/20-projets-en-javascript",
+                            "https://www.udemy.com/course/20-projets-en-javascript/"
+                        ]
+                    },
+                    {
+                        "name": "JSchallenger",
+                        "url": "https://www.jschallenger.com/"
+                    },
+                    {
+                        "name": "Edabit",
+                        "url": "https://edabit.com/challenges/javascript"
+                    },
+                    {
+                        "name": "Frontendmentor",
+                        "url": "https://www.frontendmentor.io/challenges?languages=HTML%7CCSS%7CJS&types=free,free-plus_nhttps://devchallenges.io/"
+                    },
+                    {
+                        "name": "Javascript.info",
+                        "info": "en fin d'articles",
+                        "url": "https://fr.javascript.info/"
+                    },
+                    {
+                        "name": "Tympanus",
+                        "url": "https://tympanus.net/codrops/category/tutorials/"
+                    }
+                ]
+            },
+            {
+                "title": "Animation au scroll",
+                "links": [
+                    {
+                        "name": "Intersection Observer",
+                        "info": "js natif",
+                        "url": [
+                            "https://youtu.be/08hkOS9ssmk",
+                            "https://developer.mozilla.org/fr/docs/Web/API/Intersection_Observer_API"
+                        ]
+                    },
+                    {
+                        "name": "Animate On Scroll",
+                        "info": "librairie",
+                        "url": "https://michalsnik.github.io/aos/"
+                    },
+                    {
+                        "name": "Gsap scrollTrigger",
+                        "info": "Plugin Gsap",
+                        "url": "https://greensock.com/scrolltrigger/"
+                    },
+                    {
+                        "name": "Scrollreveal",
+                        "info": "librairie",
+                        "url": "https://scrollrevealjs.org/"
+                    },
+                    {
+                        "name": "Locomotive Scroll",
+                        "info": "librairie",
+                        "url": "https://github.com/locomotivemtl/locomotive-scroll"
+                    }
+                ]
+            },
+            {
+                "title": "Graphiques/Charts",
+                "links": [
+                    {
+                        "name": "Chart.js",
+                        "url": "https://www.chartjs.org/docs/latest/"
+                    },
+                    {
+                        "name": "D3.js",
+                        "url": "https://d3js.org/"
+                    },
+                    {
+                        "name": "Vizzu",
+                        "url": "https://vizzuhq.com/"
+                    },
+                    {
+                        "name": "Recharts",
+                        "url": "https://recharts.org/"
+                    },
+                    {
+                        "name": "Echarts",
+                        "url": "https://echarts.apache.org/"
+                    }
+                ]
+            },
+            {
+                "title": "Carrousels",
+                "links": [
+                    {
+                        "url": [
+                            "https://swiperjs.com/",
+                            "https://a11yslider.js.org/",
+                            "https://van11y.net/accessible-carrousel/",
+                            "https://www.youtube.com/results?search_query=carousel+javascript&sp=EgIIBQ%253D%253D",
+                            "https://codepen.io/search/pens?q=carousel"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Envoyer un mail",
+                "links": [
+                    {
+                        "name": "Email JS",
+                        "url": "https://www.emailjs.com/"
+                    },
+                    {
+                        "name": "SMTP JS",
+                        "url": "https://smtpjs.com/"
+                    }
+                ]
+            }
+        ]
+    },
+    "jQuery": {
+        "icon": "960264503965139055",
+        "items": [
+            {
+                "title": "Faire du jQuery sans... jQuery",
+                "links": [
+                    {
+                        "name": "CSS trick",
+                        "url": "https://css-tricks.com/now-ever-might-not-need-jquery/"
+                    },
+                    {
+                        "name": "SansjQuery",
+                        "url": "https://sansjquery.fr/"
+                    }
+                ]
+            }
+        ]
+    },
+    "React": {
+        "icon": "951077588384751627",
+        "items": [
+            {
+                "title": "Généralités",
+                "links": [
+                    {
+                        "name": "Avant de passer à React",
+                        "url": "discord://discord.com/channels/655077317911117860/655077317911117866/846786551480320070"
+                    }
+                ]
+            },
+            {
+                "title": "Exercices/Projets",
+                "links": [
+                    {
+                        "name": "10 Projets avec React",
+                        "info": "payant",
+                        "url": [
+                            "https://www.ecole-du-web.net/p/10-projets-react",
+                            "https://www.udemy.com/course/coder-10-projets-avec-react/"
+                        ]
+                    },
+                    {
+                        "name": "Authentification avec React + Firebase",
+                        "url": "https://youtu.be/boZJtNzRCDQ"
+                    },
+                    {
+                        "name": "Cloner Twitch avec React",
+                        "info": "payant",
+                        "url": [
+                            "https://www.ecole-du-web.net/p/cloner-twitch-avec-react",
+                            "https://www.udemy.com/course/cloner-twitch-avec-react/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Préparation entretien",
+                "links": [
+                    {
+                        "url": [
+                            "https://www.freecodecamp.org/news/prepare-for-react-technical-interviews/",
+                            "https://intellipaat.com/blog/interview-question/react-interview-questions/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Animation au scroll",
+                "links": [
+                    {
+                        "name": "scrollex",
+                        "info": "librairie",
+                        "url": ["https://scrollex-docs.vercel.app/"]
+                    }
+                ]
+            }
+        ]
+    },
+    "PHP": {
+        "icon": "951077605992443904",
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Pierre Giraud",
+                        "url": [
+                            "https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/",
+                            "https://youtu.be/6AMZC3uIE4s"
+                        ]
+                    },
+                    {
+                        "name": "Grafikart",
+                        "url": "https://grafikart.fr/tutoriels/php"
+                    }
+                ]
+            },
+            {
+                "title": "Envoyer un mail",
+                "links": [
+                    {
+                        "name": "PHP Mailer",
+                        "info": "librairie",
+                        "url": "https://analyse-innovation-solution.fr/publication/fr/php/comment-envoyer-un-mail-en-php"
+                    }
+                ]
+            }
+        ]
+    },
+    "Regex": {
+        "icon": "952228085183430686",
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Freecodecamp",
+                        "url": "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
+                    },
+                    {
+                        "name": "Regexlearn",
+                        "url": "https://regexlearn.com/"
+                    },
+                    {
+                        "name": "Regexone",
+                        "url": "https://regexone.com/"
+                    }
+                ]
+            },
+            {
+                "title": "Tests/Verif",
+                "links": [
+                    {
+                        "name": "Regex101",
+                        "url": "https://regex101.com/"
+                    },
+                    {
+                        "name": "Regexr",
+                        "url": "https://regexr.com/"
+                    }
+                ]
+            },
+            {
+                "title": "Snippets",
+                "links": [
+                    {
+                        "name": "Ihateregex",
+                        "url": "https://ihateregex.io/"
+                    }
+                ]
+            }
+        ]
+    },
+    "Webdesign": {
+        "icon": "951077798188056627",
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Introduction/Guides",
+                        "url": [
+                            "https://uxplanet.org/the-best-resources-for-learning-web-design-2c1d4896b661",
+                            "https://designmodo.com/website-design/"
+                        ]
+                    },
+                    {
+                        "name": "Formations",
+                        "info": "payantes & gratuites",
+                        "url": [
+                            "https://www.ecole-du-web.net/p/le-webdesign-pour-les-debutants-avec-figma",
+                            "https://www.udemy.com/course/le-webdesign-pour-les-debutants-avec-figma/",
+                            "https://www.youtube.com/watch?v=B-ytMSuwbf8"
+                        ]
+                    },
+                    {
+                        "name": "Sites/Blogs",
+                        "url": [
+                            "https://audreytips.com",
+                            "https://www.arquen.fr",
+                            "https://www.blogduwebdesign.com",
+                            "https://bloguxdesigner.fr",
+                            "https://designmodo.com",
+                            "https://www.envato.com",
+                            "https://graphiste.com/blog",
+                            "https://medium.com/@usemuzli",
+                            "https://www.olybop.fr",
+                            "https://www.sketch.com/blog/",
+                            "https://www.smashingmagazine.com/",
+                            "https://speckyboy.com",
+                            "https://stephaniewalter.design/fr/blog",
+                            "https://tympanus.net/codrops",
+                            "https://www.uxpin.com/studio/",
+                            "https://uxmovement.com/",
+                            "https://uxplanet.org",
+                            "https://www.webdesignerdepot.com",
+                            "https://www.webdesignertrends.com"
+                        ]
+                    },
+                    {
+                        "name": "Chaînes Youtube",
+                        "url": "discord://discord.com/channels/655077317911117860/661938087600848907/943531609045483590"
+                    }
+                ]
+            },
+            {
+                "title": "Extensions navigateur",
+                "links": [
+                    {
+                        "name": "Panda 5",
+                        "url": "https://chrome.google.com/webstore/detail/panda-5-your-favorite-web/haafibkemckmbknhfkiiniobjpgkebko?hl=fr"
+                    },
+                    {
+                        "name": "Designer Daily Report",
+                        "url": "https://chrome.google.com/webstore/detail/designer-daily-report/imjkkofdknonmlapjelmafbikikbegbi"
+                    },
+                    {
+                        "name": "CSS Peeper",
+                        "url": "https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk?hl=fr"
+                    }
+                ]
+            },
+            {
+                "title": "Le Lorem ipsum",
+                "links": [
+                    {
+                        "name": "Pourquoi arrêter",
+                        "url": "https://www.atipik.ch/fr/blog/lorem-ipsum-ne-signifie-pas-contenu"
+                    },
+                    {
+                        "name": "UX writing",
+                        "url": "https://bloguxdesigner.fr/ux-writing/"
+                    },
+                    {
+                        "name": "UX design",
+                        "url": "https://bloguxdesigner.fr/storytelling-raconter-une-histoirepar-le-design/"
+                    }
+                ]
+            },
+            {
+                "title": "Idées briefs/concepts",
+                "links": [
+                    {
+                        "name": "30daysofwebdesign",
+                        "url": "https://www.30daysofwebdesign.com/"
+                    },
+                    {
+                        "name": "Goodbrief",
+                        "url": "https://goodbrief.io/"
+                    },
+                    {
+                        "name": "Daily UI",
+                        "url": "https://www.dailyui.co/"
+                    },
+                    {
+                        "name": "Autres",
+                        "url": "https://fakeclients.com/blog/design-brief-generators"
+                    }
+                ]
+            },
+            {
+                "title": "Icônes/Pictos SVG",
+                "links": [
+                    {
+                        "url": [
+                            "https://heroicons.com/",
+                            "https://dryicons.com/",
+                            "https://iconstore.co/",
+                            "https://icones.js.org/",
+                            "https://lordicon.com/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Backgrounds SVG",
+                "links": [
+                    {
+                        "url": [
+                            "https://bgjar.com/",
+                            "https://coolbackgrounds.io/",
+                            "https://app.haikei.app/",
+                            "https://www.svgbackgrounds.com/",
+                            "https://www.gradientmagic.com/",
+                            "https://pattern.monster/",
+                            "https://app.heazy.studio/",
+                            "https://fffuel.co/"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    "SEO": {
+        "icon": "951077572727439391",
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Sites/Blogs",
+                        "url": [
+                            "https://www.abondance.com/",
+                            "https://audreytips.com/",
+                            "https://arobasenet.com/",
+                            "https://www.blogdumoderateur.com/",
+                            "https://blog.hubspot.fr/",
+                            "https://www.codeur.com/blog/",
+                            "https://www.ecommerce-nation.fr/",
+                            "https://www.fasterize.com/",
+                            "https://www.matthieu-tranvan.fr/",
+                            "https://www.notuxedo.com/",
+                            "https://fr.semrush.com/blog/",
+                            "https://www.smashingmagazine.com/",
+                            "https://www.webmarketing-com.com/",
+                            "https://www.webrankinfo.com/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Guidelines/Articles",
+                "links": [
+                    {
+                        "name": "Google",
+                        "url": [
+                            "https://developers.google.com/search/docs/advanced/guidelines/overview?hl=fr"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Performances/Optimisations": {
+        "icon": "951077737467105300",
+        "items": [
+            {
+                "title": "Outils",
+                "links": [
+                    {
+                        "url": [
+                            "https://developers.google.com/speed/pagespeed/insights/",
+                            "https://search.google.com/search-console/about?hl=fr",
+                            "https://search.google.com/test/mobile-friendly",
+                            "https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr",
+                            "https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma",
+                            "https://gtmetrix.com/",
+                            "https://www.dareboost.com/fr",
+                            "https://seositecheckup.com/tools/html-page-size-test",
+                            "https://www.bing.com/webmasters/about",
+                            "https://fr.semrush.com/blog/outils-seo-gratuits/"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Hébergement/NDD": {
+        "items": [
+            {
+                "title": "Hébergements Gratuits",
+                "links": [
+                    {
+                        "name": "000Webhost",
+                        "url": "https://fr.000webhost.com/"
+                    },
+                    {
+                        "name": "Github",
+                        "url": "https://youtu.be/hNRxn5sKOdE"
+                    },
+                    {
+                        "name": "Netlify",
+                        "info": "Frais supplémentaires éventuels",
+                        "url": "https://www.netlify.com/"
+                    },
+                    {
+                        "name": "PlanetHoster",
+                        "url": "https://www.planethoster.com/fr/World-Lite"
+                    },
+                    {
+                        "name": "Vercel",
+                        "url": "https://vercel.com/"
+                    }
+                ]
+            },
+            {
+                "title": "Hébergements Payants",
+                "links": [
+                    {
+                        "name": "1&1 IONOS",
+                        "info": "Niederlauterbach ??? Karlsruhe et Hanau - Allemagne, Lenexa - Etats-Unis",
+                        "url": "https://www.ionos.fr/"
+                    },
+                    {
+                        "name": "Aquaray",
+                        "info": "Ivry-sur-Seine",
+                        "url": "https://www.aquaray.com/"
+                    },
+                    {
+                        "name": "Amen",
+                        "info": "Pas en France mais au Royaume-Uni, Italie, Canada, Hong Kong",
+                        "url": "https://www.amen.fr/"
+                    },
+                    {
+                        "name": "Easy Hébergement",
+                        "info": "Saint-Denis et Toulouse/Balma",
+                        "url": "https://www.easy-hebergement.fr/"
+                    },
+                    {
+                        "name": "Gandi",
+                        "info": "Trois sur Paris et un à Baltimore - Etats-Unis",
+                        "url": "https://www.gandi.net/fr"
+                    },
+                    {
+                        "name": "GoDaddy",
+                        "info": "Europe, Amérique du Nord, Asie",
+                        "url": "https://www.godaddy.com/fr-ca"
+                    },
+                    {
+                        "name": "Hostinger",
+                        "info": "France, Royaume-Uni, Pays-Bas, Lituanie, États-Unis, Brésil et Asie",
+                        "url": "https://www.hostinger.fr/"
+                    },
+                    {
+                        "name": "Ikoula",
+                        "info": "Reims et Eppes",
+                        "url": "https://www.ikoula.com/fr/hebergement-web"
+                    },
+                    {
+                        "name": "LWS",
+                        "info": "France, via les sociétés Adista et Equinix",
+                        "url": "https://www.lws.fr/"
+                    },
+                    {
+                        "name": "Monarobase",
+                        "info": "Tous en France",
+                        "url": "https://monarobase.net/"
+                    },
+                    {
+                        "name": "Netlify",
+                        "info": "US East - N. Virginia, US East - Ohio, US West - N. California, US West - Oregon, Europe - Frankfurt, Asia Pacific - Singapore",
+                        "url": "https://www.netlify.com/"
+                    },
+                    {
+                        "name": "o2switch",
+                        "info": "Clermont-Ferrand",
+                        "url": "https://www.o2switch.fr/"
+                    },
+                    {
+                        "name": "OVHcloud",
+                        "info": "France, Canada, États-Unis, Australie, Allemagne, Pologne, Royaume-Uni et Singapour",
+                        "url": "https://www.ovhcloud.com/fr/"
+                    },
+                    {
+                        "name": "PlanetHoster",
+                        "info": "Paris, Suisse ou Canada",
+                        "url": "https://www.planethoster.com/fr/"
+                    }
+                ]
+            },
+            {
+                "title": "Extensions nom de domaine",
+                "links": [
+                    {
+                        "name": "Impact sur le SEO ?",
+                        "url": [
+                            "https://developers.google.com/search/blog/2015/07/googles-handling-of-new-top-level",
+                            "https://www.semrush.com/blog/will-using-alternate-tlds-affect-your-seo-negatively/"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Indépendant": {
+        "items": [
+            {
+                "title": "Actualités",
+                "links": [
+                    {
+                        "name": "",
+                        "url": [
+                            "https://www.urssaf.fr/portail/home/actualites/toute-lactualite-independant.default.html"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Définir un tarif",
+                "links": [
+                    {
+                        "name": "",
+                        "url": [
+                            "https://www.webmarketing-com.com/2022/02/09/1695156-comment-estimer-salaire-freelance",
+                            "https://blocnotes.iergo.fr/articles/comprendre-le-tjm-dun-freelance/"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Obligations": {
+        "items": [
+            {
+                "title": "Mentions légales",
+                "links": [
+                    {
+                        "name": "",
+                        "url": [
+                            "https://www.economie.gouv.fr/entreprises/site-internet-mentions-obligatoires",
+                            "https://www.francenum.gouv.fr/guides-et-conseils/developpement-commercial/site-web/quelles-sont-les-mentions-legales-pour-un-site",
+                            "https://entreprendre.service-public.fr/vosdroits/F31228"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "RGPD & Cookies",
+                "links": [
+                    {
+                        "name": "Formations",
+                        "url": [
+                            "https://www.cnil.fr/fr/le-mooc-de-la-cnil-est-de-retour-dans-une-nouvelle-version-enrichie"
+                        ]
+                    },
+                    {
+                        "name": "Articles",
+                        "url": [
+                            "https://www.economie.gouv.fr/entreprises/reglement-general-sur-protection-des-donnees-rgpd",
+                            "https://www.cnil.fr/fr/rgpd-de-quoi-parle-t-on",
+                            "https://www.cnil.fr/rgpd-passer-a-laction",
+                            "https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies-solutions-pour-les-outils-de-mesure-daudience",
+                            "https://www.webrankinfo.com/dossiers/droit-internet/consentement-cookies"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Emailing": {
+        "items": [
+            {
+                "title": "Sites/Blogs",
+                "links": [
+                    {
+                        "name": "",
+                        "url": ["https://www.hteumeuleu.com/blog/"]
+                    }
+                ]
+            },
+            {
+                "title": "Guidelines/Articles",
+                "links": [
+                    {
+                        "name": "",
+                        "url": [
+                            "https://github.com/hteumeuleu/email-guidelines",
+                            "https://stackoverflow.design/email/guidelines/design-best-practices/",
+                            "https://designmodo.com/html-css-emails/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Support propriétés CSS",
+                "links": [
+                    {
+                        "name": "Can i email",
+                        "url": "https://www.caniemail.com/features/css-pseudo-element-after/"
+                    },
+                    {
+                        "name": "Campaign Monitor",
+                        "url": "https://www.campaignmonitor.com/css/selectors/class-chaining/"
+                    },
+                    {
+                        "name": "Mailchimp",
+                        "url": "https://templates.mailchimp.com/resources/email-client-css-support/"
+                    }
+                ]
+            }
+        ]
+    },
+    "Udemy": {
+        "icon": "960267912034283550",
+        "items": [
+            {
+                "title": "Cours/Promotions",
+                "links": [
+                    {
+                        "name": "Détails",
+                        "url": "discord://discord.com/channels/655077317911117860/823270286253490176/954120676401381386"
+                    }
+                ]
+            }
+        ]
+    },
+    "ConfigPC": {
+        "items": [
+            {
+                "title": "Comment choisir",
+                "links": [
+                    {
+                        "name": "Développement",
+                        "url": "https://www.freecodecamp.org/news/how-to-choose-a-laptop-for-programming-a9e36f8b4cfe/"
+                    },
+                    {
+                        "name": "Webdesign",
+                        "info": "~idem pour XD, InDesign",
+                        "url": "https://blueskygraphics.co.uk/is-ram-or-processor-more-important-for-photoshop/"
+                    },
+                    {
+                        "name": "Jeux",
+                        "url": "https://systemreqs.com/fr/jeux"
+                    }
+                ]
+            }
+        ]
+    }
+}
