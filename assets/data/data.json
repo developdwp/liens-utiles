@@ -515,6 +515,36 @@
                 ]
             },
             {
+                "title": "Inspiration",
+                "links": [
+                    {
+                        "name": "Sites/Landing pages",
+                        "url": [
+                            "https://land-book.com/",
+                            "https://pagecollective.com/",
+                            "https://www.lapa.ninja/",
+                            "https://www.cssdesignawards.com/",
+                            "https://onepagelove.com/",
+                            "https://www.landingfolio.com/",
+                            "https://uigarage.net/platform/web/",
+                            "https://www.behance.net/",
+                            "https://dribbble.com/",
+                            "https://httpster.net/",
+                            "https://www.awwwards.com/",
+                            "https://www.siteinspire.com/"
+                        ]
+                    },
+                    {
+                        "name": "Mobile/Applications",
+                        "url": [
+                            "https://screenlane.com/",
+                            "https://mobbin.com/browse/ios/apps",
+                            "https://uigarage.net/platform/android/"
+                        ]
+                    }
+                ]
+            },
+            {
                 "title": "Icônes/Pictos SVG",
                 "links": [
                     {
