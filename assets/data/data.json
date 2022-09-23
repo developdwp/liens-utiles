@@ -363,6 +363,22 @@
             }
         ]
     },
+    "Node.js": {
+        "icon": "951077613311504384",
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Thomas Gentilhomme",
+                        "url": [
+                            "https://docs.google.com/document/d/1JHgmEFkc8Py4XSuCB8_DQ5FFEJoogyeninFK6ucTd4o/edit"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     "Regex": {
         "icon": "952228085183430686",
         "items": [
