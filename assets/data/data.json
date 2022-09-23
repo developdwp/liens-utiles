@@ -578,7 +578,8 @@
                             "https://icones.js.org/",
                             "https://lordicon.com/",
                             "https://iconmonstr.com/",
-                            "https://fontawesome.com/search?m=free"
+                            "https://fontawesome.com/search?m=free",
+                            "https://thenounproject.com/"
                         ]
                     }
                 ]
@@ -660,7 +661,9 @@
                             "https://www.dareboost.com/fr",
                             "https://seositecheckup.com/tools/html-page-size-test",
                             "https://www.bing.com/webmasters/about",
-                            "https://fr.semrush.com/blog/outils-seo-gratuits/"
+                            "https://fr.semrush.com/blog/outils-seo-gratuits/",
+                            "https://www.webpagetest.org/",
+                            "http://yslow.org/"
                         ]
                     }
                 ]
@@ -790,7 +793,6 @@
                 "title": "Actualités",
                 "links": [
                     {
-                        "name": "",
                         "url": [
                             "https://www.urssaf.fr/portail/home/actualites/toute-lactualite-independant.default.html"
                         ]
@@ -801,10 +803,20 @@
                 "title": "Définir un tarif",
                 "links": [
                     {
-                        "name": "",
                         "url": [
                             "https://www.webmarketing-com.com/2022/02/09/1695156-comment-estimer-salaire-freelance",
                             "https://blocnotes.iergo.fr/articles/comprendre-le-tjm-dun-freelance/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Comptabilité",
+                "links": [
+                    {
+                        "url": [
+                            "https://entreprendre.service-public.fr/vosdroits/F23266",
+                            "https://www.blogdumoderateur.com/freelance-checklist-obligations-comptables-statut-juridique/"
                         ]
                     }
                 ]
@@ -839,6 +851,7 @@
                         "name": "Articles",
                         "url": [
                             "https://www.economie.gouv.fr/entreprises/reglement-general-sur-protection-des-donnees-rgpd",
+                            "https://www.economie.gouv.fr/entreprises/site-internet-mentions-obligatoires",
                             "https://www.cnil.fr/fr/rgpd-de-quoi-parle-t-on",
                             "https://www.cnil.fr/rgpd-passer-a-laction",
                             "https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies-solutions-pour-les-outils-de-mesure-daudience",
