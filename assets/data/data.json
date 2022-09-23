@@ -404,6 +404,15 @@
                         "url": "https://ihateregex.io/"
                     }
                 ]
+            },
+            {
+                "title": "Cheatsheet",
+                "links": [
+                    {
+                        "name": "Cheatography",
+                        "url": "https://cheatography.com/davechild/cheat-sheets/regular-expressions/"
+                    }
+                ]
             }
         ]
     },
