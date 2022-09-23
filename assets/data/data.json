@@ -878,20 +878,6 @@
             }
         ]
     },
-    "Udemy": {
-        "icon": "960267912034283550",
-        "items": [
-            {
-                "title": "Cours/Promotions",
-                "links": [
-                    {
-                        "name": "Détails",
-                        "url": "discord://discord.com/channels/655077317911117860/823270286253490176/954120676401381386"
-                    }
-                ]
-            }
-        ]
-    },
     "ConfigPC": {
         "items": [
             {
