@@ -40,8 +40,9 @@
     --jqueryColor: #74cdf3;
     --reactColor: #58d9f8;
     --phpColor: #8c91bc;
-    --regexColor: #a86251;
-    --webdesignColor: #fc9d31;
+    --nodeColor: #62aa6c;
+    --webdesignColor: #fe798f;
+    --emailingColor: #6a4d48;
     --udemyColor: #c82fef;
     --discordColor: #5662f6;
     --yoububeColor: #ff2a1f;
@@ -146,16 +147,16 @@ main {
             background-color: var(--phpColor);
         }
 
-        &.regex::before {
-            background-color: var(--regexColor);
+        &.nodejs::before {
+            background-color: var(--nodeColor);
         }
 
         &.webdesign::before {
             background-color: var(--webdesignColor);
         }
 
-        &.udemy::before {
-            background-color: var(--udemyColor);
+        &.emailing::before {
+            background-color: var(--emailingColor);
         }
     }
 
@@ -227,11 +228,19 @@ main {
 
 footer {
     display: flex;
-    place-content: center;
+    justify-content: center;
+    gap: 3rem;
 
     a {
         font-size: 1.4rem;
-        margin: 0 5rem;
+        padding: 0.5rem 1.5rem;
         line-height: 1.4rem;
+        border-radius: 1em;
+        color: var(--fontColor);
+        background-color: var(--linesColor);
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 }

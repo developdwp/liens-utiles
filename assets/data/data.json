@@ -380,7 +380,7 @@
         ]
     },
     "Regex": {
-        "icon": "952228085183430686",
+        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Apprentissage",
@@ -433,7 +433,7 @@
         ]
     },
     "Webdesign": {
-        "icon": "951077798188056627",
+        "icon": "1002148095414517840",
         "items": [
             {
                 "title": "Apprentissage",
@@ -696,6 +696,7 @@
         ]
     },
     "Hébergement/NDD": {
+        "icon": "1020670964079538317",
         "items": [
             {
                 "title": "Hébergements Gratuits",
@@ -813,6 +814,7 @@
         ]
     },
     "Indépendant": {
+        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Actualités",
@@ -849,6 +851,7 @@
         ]
     },
     "Obligations": {
+        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Mentions légales",
@@ -888,6 +891,7 @@
         ]
     },
     "Emailing": {
+        "icon": "1001751866016804915",
         "items": [
             {
                 "title": "Sites/Blogs",
@@ -931,6 +935,7 @@
         ]
     },
     "ConfigPC": {
+        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Comment choisir",
