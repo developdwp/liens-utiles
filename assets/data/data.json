@@ -130,6 +130,22 @@
         "icon": "951077635121893396",
         "items": [
             {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "url": [
+                            "https://www.ecole-du-web.net/p/le-javascript-de-a-a-z",
+                            "https://www.udemy.com/course/le-javascript-de-a-a-z/",
+                            "https://fr.javascript.info/",
+                            "https://thevalleyofcode.com/js/",
+                            "https://www.w3schools.com/js/",
+                            "https://www.freecodecamp.org/news/full-javascript-course-for-beginners/",
+                            "https://www.freecodecamp.org/"
+                        ]
+                    }
+                ]
+            },
+            {
                 "title": "Exercices/Projets",
                 "links": [
                     {
