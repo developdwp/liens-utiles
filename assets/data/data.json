@@ -910,6 +910,10 @@
                             "https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies-solutions-pour-les-outils-de-mesure-daudience",
                             "https://www.webrankinfo.com/dossiers/droit-internet/consentement-cookies"
                         ]
+                    },
+                    {
+                        "name": "Outils",
+                        "url": ["https://www.cookiebot.com/fr/"]
                     }
                 ]
             }
