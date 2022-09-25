@@ -709,6 +709,14 @@
                         ]
                     }
                 ]
+            },
+            {
+                "title": "Empreinte carbone",
+                "links": [
+                    {
+                        "url": ["https://greenframe.io/"]
+                    }
+                ]
             }
         ]
     },
