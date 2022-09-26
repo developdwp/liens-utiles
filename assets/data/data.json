@@ -51,12 +51,12 @@
                 "title": "Grid",
                 "links": [
                     {
-                        "name": "Présentation",
-                        "url": "https://youtu.be/9gAdBAD1pCc"
-                    },
-                    {
-                        "name": "La doc MDN",
-                        "url": "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids"
+                        "name": "Apprentissage",
+                        "url": [
+                            "https://youtu.be/9gAdBAD1pCc",
+                            "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids",
+                            "https://gridbyexample.com/learn/"
+                        ]
                     },
                     {
                         "name": "Exercices/Mini-jeu",
