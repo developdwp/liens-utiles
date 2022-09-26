@@ -47,9 +47,21 @@ const animClick = (e) => {
     }, 500);
 };
 
-fetch("./assets/data/data.json")
-    .then((response) => response.json())
-    .then((data) => {
+Promise.all([
+    fetch("./assets/data/data.json").then((res1) => res1.json()),
+    fetch("https://api.github.com/repos/aelweak/liens-utiles/commits").then(
+        (res2) => res2.json()
+    ),
+])
+    .then(([data, commit]) => {
+        // Last update (commit) date
+        const lastUpdate = commit[0].commit.author.date;
+        const lastUpdateDate = new Date(lastUpdate);
+        const lastUpdateContainer = document.querySelector(".last-update");
+        lastUpdateContainer.innerText = `Dernière MAJ : ${lastUpdateDate.toLocaleDateString(
+            "fr-FR"
+        )}`;
+
         Object.entries(data).forEach(([sectionName, sectionData]) => {
             const { icon = "951077761169113098", items } = sectionData;
             const section = document.createElement("section");

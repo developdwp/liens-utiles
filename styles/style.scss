@@ -45,7 +45,6 @@
     --emailingColor: #6a4d48;
     --udemyColor: #c82fef;
     --discordColor: #5662f6;
-    --yoububeColor: #ff2a1f;
 }
 
 html {
@@ -76,10 +75,6 @@ a {
     &:hover {
         text-decoration: underline;
     }
-
-    // &.youtube {
-    //     color: var(--yoububeColor);
-    // }
 }
 
 main {
@@ -89,6 +84,10 @@ main {
             font-size: 0.5em;
             font-weight: normal;
             font-style: italic;
+        }
+
+        .last-update {
+            font-weight: bold;
         }
     }
 
