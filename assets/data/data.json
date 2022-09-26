@@ -366,16 +366,6 @@
                         "url": "https://grafikart.fr/tutoriels/php"
                     }
                 ]
-            },
-            {
-                "title": "Envoyer un mail",
-                "links": [
-                    {
-                        "name": "PHP Mailer",
-                        "info": "librairie",
-                        "url": "https://analyse-innovation-solution.fr/publication/fr/php/comment-envoyer-un-mail-en-php"
-                    }
-                ]
             }
         ]
     },
