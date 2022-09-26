@@ -610,6 +610,25 @@
                 ]
             },
             {
+                "title": "Fonts",
+                "links": [
+                    {
+                        "name": "Guidelines/Articles",
+                        "url": [
+                            "https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/"
+                        ]
+                    },
+
+                    {
+                        "name": "Outils",
+                        "url": [
+                            "https://fontjoy.com/",
+                            "https://www.fontbrief.com/"
+                        ]
+                    }
+                ]
+            },
+            {
                 "title": "Icônes/Pictos SVG",
                 "links": [
                     {
