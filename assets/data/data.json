@@ -724,7 +724,10 @@
                 "title": "Empreinte carbone",
                 "links": [
                     {
-                        "url": ["https://greenframe.io/"]
+                        "url": [
+                            "https://greenframe.io/",
+                            "https://github.com/CaenCamp/front-next-caencamp/discussions/21"
+                        ]
                     }
                 ]
             }
