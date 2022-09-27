@@ -22,15 +22,11 @@ const formatTitle = (str) => {
     return formatTitle;
 };
 
-// Change color of Youtube URLs
+// Format date (fr)
 
-const siteUrl = (url) => {
-    const urlClass =
-        url.includes("https://youtu.be/") ||
-        url.includes("https://www.youtube.com/")
-            ? "class='youtube'"
-            : "";
-    return urlClass;
+const formatDateFR = (date) => {
+    let formatDate = new Date(date).toLocaleDateString();
+    return formatDate;
 };
 
 // Display "Copié !" on Discord icon click
@@ -53,14 +49,15 @@ Promise.all([
         (res2) => res2.json()
     ),
 ])
-    .then(([data, commit]) => {
-        // Last update (commit) date
-        const lastUpdate = commit[0].commit.author.date;
-        const lastUpdateDate = new Date(lastUpdate);
+    .then(([data, commits]) => {
+        // Last update (last commit) date
+
         const lastUpdateContainer = document.querySelector(".last-update");
-        lastUpdateContainer.innerText = `Dernière MAJ : ${lastUpdateDate.toLocaleDateString(
-            "fr-FR"
+        lastUpdateContainer.innerText = `Dernière MAJ : ${formatDateFR(
+            commits[0].commit.author.date
         )}`;
+
+        // Display links
 
         Object.entries(data).forEach(([sectionName, sectionData]) => {
             const { icon = "951077761169113098", items } = sectionData;

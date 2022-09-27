@@ -1,11 +1,3 @@
-*,
-::before,
-::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: "Whitney";
     font-style: normal;
@@ -27,39 +19,50 @@
     src: url(../assets/fonts/Whitney-Bold.woff2) format("woff2");
 }
 
-:root {
-    --typo1: Whitney, Arial, Helvetica, sans-serif;
-    --mainColor: #27292c;
-    --fontColor: #ffffff;
-    --linkColor: #00aff4;
-    --linesColor: #ffffff10;
-    --htmlColor: #e95532;
-    --cssColor: #0b6db7;
-    --sassColor: #d1699a;
-    --javascriptColor: #f3e55e;
-    --jqueryColor: #74cdf3;
-    --reactColor: #58d9f8;
-    --phpColor: #8c91bc;
-    --nodeColor: #62aa6c;
-    --webdesignColor: #fe798f;
-    --emailingColor: #6a4d48;
-    --udemyColor: #c82fef;
-    --discordColor: #5662f6;
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+:root {
+    --font: Whitney, Arial, Helvetica, sans-serif;
+    --color-main: #27292c;
+    --color-lines: rgba(255, 255, 255, 0.063);
+    --font-color-base: #ffffff;
+    --font-color-link: #00aff4;
+}
+
+$cat-colors: (
+    css: #0b6db7,
+    sass: #d1699a,
+    javascript: #f3e55e,
+    jquery: #74cdf3,
+    react: #58d9f8,
+    php: #8c91bc,
+    nodejs: #62aa6c,
+    webdesign: #fe798f,
+    seo: #4d80ef,
+    performances-optimisations: #8abb3b,
+    hebergement-ndd: #4a71c6,
+    emailing: #6a4d48,
+);
 
 html {
     font-size: 62.5%;
 }
 
 body {
-    font-family: var(--typo1);
-    font-size: 1.8rem;
-    background-color: var(--mainColor);
-    color: var(--fontColor);
     width: 80vw;
     max-width: 85rem;
-    word-wrap: break-word;
     margin: 5rem auto;
+    font-family: var(--font);
+    font-size: 1.8rem;
+    color: var(--font-color-base);
+    word-wrap: break-word;
+    background-color: var(--color-main);
 }
 
 input,
@@ -70,7 +73,7 @@ select {
 }
 
 a {
-    color: var(--linkColor);
+    color: var(--font-color-link);
     text-decoration: none;
     &:hover {
         text-decoration: underline;
@@ -96,7 +99,7 @@ main {
         margin: 4rem 0 2rem 0;
 
         a {
-            color: var(--fontColor);
+            color: var(--font-color-base);
             &:hover {
                 text-decoration: none;
             }
@@ -115,47 +118,13 @@ main {
             width: 0.3rem;
             height: calc(100% - 4rem);
             border-radius: 0.3rem;
-            background-color: var(--linesColor);
+            background-color: var(--color-lines);
         }
 
-        &.html::before {
-            background-color: var(--htmlColor);
-        }
-
-        &.css::before {
-            background-color: var(--cssColor);
-        }
-
-        &.sass::before {
-            background-color: var(--sassColor);
-        }
-
-        &.javascript::before {
-            background-color: var(--javascriptColor);
-        }
-
-        &.jquery::before {
-            background-color: var(--jqueryColor);
-        }
-
-        &.react::before {
-            background-color: var(--reactColor);
-        }
-
-        &.php::before {
-            background-color: var(--phpColor);
-        }
-
-        &.nodejs::before {
-            background-color: var(--nodeColor);
-        }
-
-        &.webdesign::before {
-            background-color: var(--webdesignColor);
-        }
-
-        &.emailing::before {
-            background-color: var(--emailingColor);
+        @each $name, $color in $cat-colors {
+            &.#{$name}::before {
+                background-color: $color;
+            }
         }
     }
 
@@ -174,7 +143,7 @@ main {
             margin-bottom: 1rem;
 
             a {
-                color: var(--fontColor);
+                color: var(--font-color-base);
                 &:hover {
                     text-decoration: none;
                 }
@@ -212,7 +181,7 @@ main {
             left: 0;
             width: 100%;
             height: 0.2rem;
-            background-color: var(--fontColor);
+            background-color: var(--font-color-base);
         }
 
         .infos {
@@ -231,12 +200,13 @@ footer {
     gap: 3rem;
 
     a {
-        font-size: 1.4rem;
         padding: 0.5rem 1.5rem;
+        color: var(--font-color-base);
+        font-size: 1.4rem;
         line-height: 1.4rem;
+        text-align: center;
         border-radius: 1em;
-        color: var(--fontColor);
-        background-color: var(--linesColor);
+        background-color: var(--color-lines);
 
         &:hover {
             text-decoration: none;
