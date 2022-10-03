@@ -1,13 +1,40 @@
 {
-    "CSS": {
+    "HTML/CSS": {
         "icon": "951077665698349186",
         "items": [
             {
-                "title": "Reset",
+                "title": "Apprentissage",
                 "links": [
                     {
-                        "name": "Explications",
-                        "url": "https://youtu.be/l1rHL0d-7HE"
+                        "name": "Formations",
+                        "url": [
+                            "https://www.ecole-du-web.net/p/cours-html-en-partant-de-zero",
+                            "https://www.udemy.com/course/html-le-cours-complet/",
+                            "https://www.ecole-du-web.net/p/le-css-de-a-a-z",
+                            "https://www.udemy.com/course/le-css-de-a-a-z/",
+                            "https://www.udemy.com/course/formation-complete-developpeur-front-end/"
+                        ]
+                    },
+
+                    {
+                        "name": "Sites/Blogs",
+                        "url": [
+                            "https://www.alsacreations.com/home/",
+                            "https://css-tricks.com/archives/",
+                            "https://davidwalsh.name/",
+                            "https://www.freecodecamp.org/news/",
+                            "https://ishadeed.com/articles/",
+                            "https://www.joshwcomeau.com/tutorials/css/",
+                            "https://la-cascade.io/",
+                            "https://moderncss.dev/"
+                        ]
+                    },
+                    {
+                        "name": "Chaînes Youtube",
+                        "url": [
+                            "https://www.youtube.com/kepowob",
+                            "https://www.youtube.com/c/LeDesignerduWeb"
+                        ]
                     }
                 ]
             },
@@ -15,86 +42,49 @@
                 "title": "Flexbox",
                 "links": [
                     {
-                        "name": "En 7 minutes",
-                        "url": "https://youtu.be/-FCW8oLvJ2Y"
+                        "name": "Apprentissage",
+                        "url": [
+                            "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox"
+                        ]
                     },
                     {
-                        "name": "Cas pratiques d'utilisation",
-                        "url": "https://youtu.be/S3WECGYv_rQ"
-                    },
-                    {
-                        "name": "La doc MDN",
-                        "url": "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox"
-                    },
-                    {
-                        "name": "Exercices/Mini-jeu",
+                        "name": "Apprentissage (mini-jeux)",
                         "url": [
                             "https://flexboxfroggy.com/",
+                            "http://www.flexboxdefense.com/",
                             "https://mastery.games/flexboxzombies/"
                         ]
                     },
                     {
                         "name": "Cheatsheet",
                         "url": "https://codepen.io/osublake/pen/dMLQJr"
-                    },
-                    {
-                        "name": "Créer une galerie responsive",
-                        "url": "https://youtu.be/XTTG7_iqX9c"
-                    },
-                    {
-                        "name": "Coder une Navbar",
-                        "url": "https://youtu.be/qNgO9rXb3-8"
                     }
                 ]
             },
             {
-                "title": "Grid",
+                "title": "CSS Grid",
                 "links": [
                     {
                         "name": "Apprentissage",
                         "url": [
-                            "https://youtu.be/9gAdBAD1pCc",
                             "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids",
+                            "https://la-cascade.io/articles/css-grid-layout-guide-complet",
                             "https://gridbyexample.com/learn/"
                         ]
                     },
                     {
-                        "name": "Exercices/Mini-jeu",
-                        "url": "https://cssgridgarden.com/"
-                    },
-                    {
-                        "name": "Page responsive avec CSS Grid + Flexbox",
-                        "url": "https://youtu.be/ho_niXFSUno"
-                    },
-                    {
-                        "name": "Coder une liste (de miniatures) responsive",
-                        "url": "https://youtu.be/o5nD0BB7uH0"
-                    },
-                    {
-                        "name": "Créer une galerie",
-                        "url": "https://youtu.be/vAs00R8aXUA"
+                        "name": "Apprentissage (mini-jeux)",
+                        "url": ["https://cssgridgarden.com/"]
                     }
                 ]
             },
             {
-                "title": "Exercices CSS",
+                "title": "Exercices intégration",
                 "links": [
                     {
-                        "name": "30 Exercices en CSS",
-                        "info": "inscription newsletter",
-                        "url": "https://www.le-designer-du-web.com/news"
-                    },
-                    {
-                        "name": "Frontendmentor",
-                        "url": "https://www.frontendmentor.io/challenges?sort=difficulty%7Casc&types=free,free-plus"
-                    },
-                    {
-                        "name": "Flexbox",
-                        "url": "https://flexboxfroggy.com/"
-                    },
-                    {
-                        "name": "CSS Grid",
-                        "url": "https://cssgridgarden.com/"
+                        "url": [
+                            "https://www.frontendmentor.io/challenges?sort=difficulty%7Casc&types=free,free-plus"
+                        ]
                     }
                 ]
             }
@@ -106,14 +96,6 @@
             {
                 "title": "Apprentissage",
                 "links": [
-                    {
-                        "name": "Comprendre en 4 min",
-                        "url": "https://youtu.be/QXlggvsmhP0"
-                    },
-                    {
-                        "name": "Mise en place et fonctionnalités",
-                        "url": "https://www.youtube.com/playlist?list=PLpG9MHuD988gmtSEhWPdYvROBMpEpLk1S"
-                    },
                     {
                         "name": "La doc Sass",
                         "url": "https://sass-lang.com/documentation"
@@ -133,20 +115,27 @@
                 "title": "Apprentissage",
                 "links": [
                     {
+                        "name": "Formations",
                         "url": [
                             "https://www.ecole-du-web.net/p/le-javascript-de-a-a-z",
-                            "https://www.udemy.com/course/le-javascript-de-a-a-z/",
+                            "https://www.udemy.com/course/le-javascript-de-a-a-z/"
+                        ]
+                    },
+                    {
+                        "name": "Sites/Blogs",
+                        "url": [
                             "https://fr.javascript.info/",
                             "https://thevalleyofcode.com/js/",
                             "https://www.w3schools.com/js/",
                             "https://www.freecodecamp.org/news/full-javascript-course-for-beginners/",
-                            "https://www.digitalocean.com/community/tutorials?q=%5BJavaScript%5D"
+                            "https://www.digitalocean.com/community/tutorials?q=%5BJavaScript%5D",
+                            "https://youtu.be/X1umyXgJsA0"
                         ]
                     }
                 ]
             },
             {
-                "title": "Exercices/Projets",
+                "title": "Exercices",
                 "links": [
                     {
                         "name": "11 idées de projet pour s'améliorer en JS",
@@ -292,11 +281,25 @@
         "icon": "951077588384751627",
         "items": [
             {
-                "title": "Généralités",
+                "title": "Apprentissage",
                 "links": [
                     {
-                        "name": "Avant de passer à React",
-                        "url": "discord://discord.com/channels/655077317911117860/655077317911117866/846786551480320070"
+                        "name": "Formations",
+                        "url": [
+                            "https://www.udemy.com/course/react-formation-complete/"
+                        ]
+                    },
+                    {
+                        "name": "Chaînes Youtube",
+                        "url": [
+                            "https://www.youtube.com/c/codeconcept",
+                            "https://www.youtube.com/c/LamaDev",
+                            "https://www.youtube.com/c/PedroTechnologies",
+                            "https://www.youtube.com/channel/UCQrQo7jTpOh8V9EDn9Tgnxg",
+                            "https://www.youtube.com/c/TheNetNinja",
+                            "https://www.youtube.com/c/WebDevSimplified",
+                            "https://www.youtube.com/c/WrongAkram"
+                        ]
                     }
                 ]
             },
