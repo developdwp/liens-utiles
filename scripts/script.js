@@ -69,7 +69,7 @@ Promise.all([
 
             // Content title
 
-            let sectionContent = `<h2 style="background:url('../assets/images/ico_${formatTitle(
+            let sectionContent = `<h2 style="background:url('./assets/images/ico_${formatTitle(
                 sectionName
             )}.png') left top no-repeat;background-size: 2.8rem;"><a id="${sectionTitle}" href="#${sectionTitle}">${sectionName}</a></h2>`;
             sectionContent += `<ul>`;
