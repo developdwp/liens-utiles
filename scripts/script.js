@@ -14,9 +14,9 @@ const formatDiscord = (str) => {
 
 const formatTitle = (str) => {
     let formatTitle = str
-        .replace(/[^a-zA-Z0-9-Ü-ü-\.]/g, "-")
         .normalize("NFD") // Unicode normalization form (NFD = canonical decomposition)
-        .replace(/[\u0300-\u036f\.]/g, "") // Remove accents
+        .replace(/[\u0300-\u036f-()\.]/g, "") // Remove accents, dot and parenthesis
+        .replace(/[^a-zA-Z0-9-Ü-ü-\.]/g, "-")
         .replace("---", "-")
         .toLowerCase();
     return formatTitle;
@@ -69,7 +69,9 @@ Promise.all([
 
             // Content title
 
-            let sectionContent = `<h2 style="background:url('https://cdn.discordapp.com/emojis/${icon}.webp?quality=lossless') left top no-repeat;background-size: 2.8rem;"><a id="${sectionTitle}" href="#${sectionTitle}">${sectionName}</a></h2>`;
+            let sectionContent = `<h2 style="background:url('../assets/images/ico_${formatTitle(
+                sectionName
+            )}.png') left top no-repeat;background-size: 2.8rem;"><a id="${sectionTitle}" href="#${sectionTitle}">${sectionName}</a></h2>`;
             sectionContent += `<ul>`;
 
             // Content links
