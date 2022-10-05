@@ -291,6 +291,11 @@
                             "https://www.udemy.com/course/react-formation-complete/"
                         ]
                     },
+
+                    {
+                        "name": "Sites/Blogs",
+                        "url": ["https://beta.reactjs.org/learn"]
+                    },
                     {
                         "name": "Chaînes Youtube",
                         "url": [
@@ -658,7 +663,7 @@
                         ]
                     },
                     {
-                        "name": "Tutos divers",
+                        "name": "Chaînes Youtube",
                         "url": [
                             "https://www.youtube.com/c/splinetool/videos",
                             "https://www.youtube.com/watch?v=EJxeMbDTkVI",
