@@ -402,13 +402,11 @@
                 "title": "Apprentissage",
                 "links": [
                     {
-                        "url": "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
-                    },
-                    {
-                        "url": "https://regexlearn.com/"
-                    },
-                    {
-                        "url": "https://regexone.com/"
+                        "url": [
+                            "https://www.freecodecamp.org/news/regular-expressions-for-beginners/",
+                            "https://regexlearn.com/",
+                            "https://regexone.com/"
+                        ]
                     }
                 ]
             },
@@ -416,10 +414,7 @@
                 "title": "Tests/Verif",
                 "links": [
                     {
-                        "url": "https://regex101.com/"
-                    },
-                    {
-                        "url": "https://regexr.com/"
+                        "url": ["https://regex101.com/", "https://regexr.com/"]
                     }
                 ]
             },
