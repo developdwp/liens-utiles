@@ -44,6 +44,8 @@
                     {
                         "name": "Apprentissage",
                         "url": [
+                            "https://la-cascade.io/articles/flexbox-guide-complet",
+                            "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
                             "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Flexbox"
                         ]
                     },
@@ -57,7 +59,10 @@
                     },
                     {
                         "name": "Cheatsheet",
-                        "url": "https://codepen.io/osublake/pen/dMLQJr"
+                        "url": [
+                            "https://flexbox.malven.co/",
+                            "https://codepen.io/osublake/pen/dMLQJr"
+                        ]
                     }
                 ]
             },
@@ -69,12 +74,20 @@
                         "url": [
                             "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids",
                             "https://la-cascade.io/articles/css-grid-layout-guide-complet",
+                            "https://css-tricks.com/snippets/css/complete-guide-grid/",
                             "https://gridbyexample.com/learn/"
                         ]
                     },
                     {
                         "name": "Apprentissage (mini-jeux)",
                         "url": ["https://cssgridgarden.com/"]
+                    },
+                    {
+                        "name": "Cheatsheet",
+                        "url": [
+                            "https://grid.malven.co/",
+                            "https://codepen.io/reinislejnieks/pen/oeOzej"
+                        ]
                     }
                 ]
             },
