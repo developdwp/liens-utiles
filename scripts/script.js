@@ -126,9 +126,9 @@ Promise.all([
             title.addEventListener("click", (e) => {
                 const parent = e.target.closest("li");
                 navigator.clipboard.writeText(
-                    `>>> <:lang:${parent.dataset.icon}> **__${
-                        parent.dataset.section
-                    } - ${parent.innerText}__**\r${formatDiscord(
+                    `>>> **__${parent.dataset.section} - ${
+                        parent.innerText
+                    }__**\r${formatDiscord(
                         parent.nextElementSibling.innerText
                     )}`
                 );
