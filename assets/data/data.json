@@ -510,6 +510,14 @@
                     {
                         "name": "VisBug",
                         "url": "https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc"
+                    },
+                    {
+                        "name": "Save image as Type",
+                        "url": "https://chrome.google.com/webstore/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd/related?hl=fr"
+                    },
+                    {
+                        "name": "GoFullPage - Full Page Screen Capture",
+                        "url": "https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related?hl=fr"
                     }
                 ]
             },
@@ -636,6 +644,8 @@
                             "https://lordicon.com/",
                             "https://iconmonstr.com/",
                             "https://fontawesome.com/search?m=free",
+                            "https://fonts.google.com/icons",
+                            "https://tablericons.com/",
                             "https://thenounproject.com/"
                         ]
                     }
