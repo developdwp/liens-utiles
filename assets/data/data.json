@@ -516,7 +516,7 @@
                         "url": "https://chrome.google.com/webstore/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd/related?hl=fr"
                     },
                     {
-                        "name": "GoFullPage - Full Page Screen Capture",
+                        "name": "GoFullPage",
                         "url": "https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related?hl=fr"
                     }
                 ]
@@ -608,7 +608,8 @@
                             "https://coolors.co/palettes/trending",
                             "https://paletton.com/",
                             "https://mycolor.space/",
-                            "https://fffuel.co/pppalette/"
+                            "https://fffuel.co/pppalette/",
+                            "https://www.code-couleur.com/signification/"
                         ]
                     }
                 ]
