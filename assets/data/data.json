@@ -149,6 +149,12 @@
                             "https://www.digitalocean.com/community/tutorials?q=%5BJavaScript%5D",
                             "https://youtu.be/X1umyXgJsA0"
                         ]
+                    },
+                    {
+                        "name": "Chaînes Youtube",
+                        "url": [
+                            "https://youtube.com/playlist?list=PLpG9MHuD988i5DeF_mVbcBd9t7nNCgKtC"
+                        ]
                     }
                 ]
             },
@@ -321,7 +327,8 @@
                             "https://www.youtube.com/channel/UCQrQo7jTpOh8V9EDn9Tgnxg",
                             "https://www.youtube.com/c/TheNetNinja",
                             "https://www.youtube.com/c/WebDevSimplified",
-                            "https://www.youtube.com/c/WrongAkram"
+                            "https://www.youtube.com/c/WrongAkram",
+                            "https://youtube.com/playlist?list=PLpG9MHuD988g-7vniIEs0yk8bmxL35v7c"
                         ]
                     }
                 ]
@@ -461,9 +468,9 @@
                     {
                         "name": "Introduction/Guides",
                         "url": [
-                            "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+                            "https://designmodo.com/website-design/",
                             "https://uxplanet.org/the-best-resources-for-learning-web-design-2c1d4896b661",
-                            "https://designmodo.com/website-design/"
+                            "https://www.youtube.com/watch?v=B-ytMSuwbf8"
                         ]
                     },
                     {
@@ -500,24 +507,24 @@
                 "title": "Extensions navigateur",
                 "links": [
                     {
-                        "name": "Panda 5",
-                        "url": "https://chrome.google.com/webstore/detail/panda-5-your-favorite-web/haafibkemckmbknhfkiiniobjpgkebko?hl=fr"
-                    },
-                    {
                         "name": "Designer Daily Report",
                         "url": "https://chrome.google.com/webstore/detail/designer-daily-report/imjkkofdknonmlapjelmafbikikbegbi"
                     },
                     {
-                        "name": "VisBug",
-                        "url": "https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc"
+                        "name": "GoFullPage",
+                        "url": "https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related?hl=fr"
+                    },
+                    {
+                        "name": "Panda 5",
+                        "url": "https://chrome.google.com/webstore/detail/panda-5-your-favorite-web/haafibkemckmbknhfkiiniobjpgkebko?hl=fr"
                     },
                     {
                         "name": "Save image as Type",
                         "url": "https://chrome.google.com/webstore/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd/related?hl=fr"
                     },
                     {
-                        "name": "GoFullPage",
-                        "url": "https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related?hl=fr"
+                        "name": "VisBug",
+                        "url": "https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc"
                     }
                 ]
             },
@@ -542,20 +549,12 @@
                 "title": "Idées briefs/concepts",
                 "links": [
                     {
-                        "name": "30daysofwebdesign",
-                        "url": "https://www.30daysofwebdesign.com/"
-                    },
-                    {
-                        "name": "Goodbrief",
-                        "url": "https://goodbrief.io/"
-                    },
-                    {
-                        "name": "Daily UI",
-                        "url": "https://www.dailyui.co/"
-                    },
-                    {
-                        "name": "Autres",
-                        "url": "https://fakeclients.com/blog/design-brief-generators"
+                        "url": [
+                            "https://www.30daysofwebdesign.com/",
+                            "https://www.dailyui.co/",
+                            "https://fakeclients.com/blog/design-brief-generators",
+                            "https://goodbrief.io/"
+                        ]
                     }
                 ]
             },
@@ -584,8 +583,8 @@
                     {
                         "name": "Mobile/Applications",
                         "url": [
-                            "https://screenlane.com/",
                             "https://mobbin.com/browse/ios/apps",
+                            "https://screenlane.com/",
                             "https://uigarage.net/platform/android/"
                         ]
                     }
@@ -627,8 +626,34 @@
                     {
                         "name": "Outils",
                         "url": [
-                            "https://fontjoy.com/",
-                            "https://www.fontbrief.com/"
+                            "https://www.fontbrief.com/",
+                            "https://fontjoy.com/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Images/Vidéos libres de droits",
+                "links": [
+                    {
+                        "name": "Payantes",
+                        "url": [
+                            "https://www.shutterstock.com/fr/",
+                            "https://stock.adobe.com/fr/",
+                            "https://www.vexels.com/"
+                        ]
+                    },
+                    {
+                        "name": "Gratuites",
+                        "url": [
+                            "https://freepixels.com/",
+                            "https://kaboompics.com/gallery",
+                            "https://www.pexels.com/fr-fr/",
+                            "https://pixabay.com/fr/",
+                            "https://www.splitshire.com/",
+                            "https://stocksnap.io/",
+                            "https://www.stockvault.net/",
+                            "https://unsplash.com/"
                         ]
                     }
                 ]
