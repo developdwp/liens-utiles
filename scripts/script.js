@@ -45,17 +45,26 @@ const animClick = (e) => {
 
 Promise.all([
     fetch("./assets/data/data.json").then((res1) => res1.json()),
-    fetch("https://api.github.com/repos/aelweak/liens-utiles/commits").then(
-        (res2) => res2.json()
+    fetch("https://api.github.com/repos/aelweak/liens-utiles").then((res2) =>
+        res2.json()
     ),
 ])
-    .then(([data, commits]) => {
+    .then(([data, { pushed_at, stargazers_count }]) => {
         // Last update (last commit) date
 
         const lastUpdateContainer = document.querySelector(".last-update");
         lastUpdateContainer.innerText = `Dernière MAJ : ${formatDateFR(
-            commits[0].commit.author.date
+            pushed_at
         )}`;
+
+        // Github stars (footer)
+
+        const purpose = 16;
+        const starsNeeded = purpose - stargazers_count;
+        if (stargazers_count < purpose) {
+            const githubStars = document.querySelector(".github-stars");
+            githubStars.innerHTML += `<span>(Plus que ${starsNeeded} pour le badge 🙏)</span>`;
+        }
 
         // Display links
 
