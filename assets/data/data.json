@@ -119,6 +119,10 @@
                         "url": "https://sass-lang.com/documentation"
                     },
                     {
+                        "name": "Guidelines/Articles",
+                        "url": "https://sass-guidelin.es/"
+                    },
+                    {
                         "name": "Cheatsheet",
                         "url": "https://devhints.io/sass"
                     }
