@@ -1,6 +1,5 @@
 {
     "HTML/CSS": {
-        "icon": "951077665698349186",
         "items": [
             {
                 "title": "Apprentissage",
@@ -27,6 +26,7 @@
                             "https://ishadeed.com/articles/",
                             "https://www.joshwcomeau.com/tutorials/css/",
                             "https://la-cascade.io/",
+                            "https://www.matuzo.at/blog/",
                             "https://moderncss.dev/",
                             "https://web.dev/blog/"
                         ]
@@ -109,7 +109,6 @@
         ]
     },
     "Sass": {
-        "icon": "951077580616892416",
         "items": [
             {
                 "title": "Apprentissage",
@@ -131,7 +130,6 @@
         ]
     },
     "JavaScript": {
-        "icon": "951077635121893396",
         "items": [
             {
                 "title": "Apprentissage",
@@ -288,7 +286,6 @@
         ]
     },
     "jQuery": {
-        "icon": "960264503965139055",
         "items": [
             {
                 "title": "Faire du jQuery sans... jQuery",
@@ -306,7 +303,6 @@
         ]
     },
     "React": {
-        "icon": "951077588384751627",
         "items": [
             {
                 "title": "Apprentissage",
@@ -386,7 +382,6 @@
         ]
     },
     "PHP": {
-        "icon": "951077605992443904",
         "items": [
             {
                 "title": "Apprentissage",
@@ -407,7 +402,6 @@
         ]
     },
     "Node.js": {
-        "icon": "951077613311504384",
         "items": [
             {
                 "title": "Apprentissage",
@@ -423,7 +417,6 @@
         ]
     },
     "Regex": {
-        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Apprentissage",
@@ -464,7 +457,6 @@
         ]
     },
     "Webdesign": {
-        "icon": "1002148095414517840",
         "items": [
             {
                 "title": "Apprentissage",
@@ -569,20 +561,20 @@
                     {
                         "name": "Sites/Landing pages",
                         "url": [
-                            "https://land-book.com/",
-                            "https://pagecollective.com/",
-                            "https://www.lapa.ninja/",
-                            "https://www.cssdesignawards.com/",
-                            "https://onepagelove.com/",
-                            "https://www.landingfolio.com/",
-                            "https://uigarage.net/platform/web/",
-                            "https://www.pinterest.fr/search/pins/?q=webdesign",
-                            "https://collectui.com/",
+                            "https://www.awwwards.com/",
                             "https://www.behance.net/",
+                            "https://collectui.com/",
+                            "https://www.cssdesignawards.com/",
                             "https://dribbble.com/",
                             "https://httpster.net/",
-                            "https://www.awwwards.com/",
-                            "https://www.siteinspire.com/"
+                            "https://land-book.com/",
+                            "https://www.landingfolio.com/",
+                            "https://www.lapa.ninja/",
+                            "https://onepagelove.com/",
+                            "https://pagecollective.com/",
+                            "https://www.pinterest.fr/search/pins/?q=webdesign",
+                            "https://www.siteinspire.com/",
+                            "https://uigarage.net/platform/web/"
                         ]
                     },
                     {
@@ -703,7 +695,6 @@
         ]
     },
     "Spline (3D)": {
-        "icon": "951077572727439391",
         "items": [
             {
                 "title": "Apprentissage",
@@ -728,9 +719,24 @@
             }
         ]
     },
+    "Accessibilité": {
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Sites/Blogs",
+                        "url": [
+                            "https://www.a11yproject.com/resources/",
+                            "https://web.dev/learn/accessibility/"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
 
     "SEO": {
-        "icon": "951077572727439391",
         "items": [
             {
                 "title": "Apprentissage",
@@ -770,7 +776,6 @@
         ]
     },
     "Performances/Optimisations": {
-        "icon": "951077737467105300",
         "items": [
             {
                 "title": "Outils",
@@ -808,7 +813,6 @@
         ]
     },
     "Hébergement/NDD": {
-        "icon": "1020670964079538317",
         "items": [
             {
                 "title": "Hébergements Gratuits",
@@ -926,7 +930,6 @@
         ]
     },
     "Indépendant": {
-        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Actualités",
@@ -963,7 +966,6 @@
         ]
     },
     "Obligations": {
-        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Mentions légales",
@@ -1007,7 +1009,6 @@
         ]
     },
     "Emailing": {
-        "icon": "1001751866016804915",
         "items": [
             {
                 "title": "Sites/Blogs",
@@ -1051,7 +1052,6 @@
         ]
     },
     "ConfigPC": {
-        "icon": "951094147236892693",
         "items": [
             {
                 "title": "Comment choisir",
