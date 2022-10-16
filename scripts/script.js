@@ -22,6 +22,18 @@ const formatTitle = (str) => {
     return formatTitle;
 };
 
+// Format URL
+
+const formatURL = (url) => {
+    let formatURL = url
+        .replace(/^https?:\/\/(www.)?/, "") // Delete http://, http://www., https:// and https://www.
+        .replace("youtube.com/c/", "")
+        .replace("ecole-du-web.net/p/", "Ecole du Web - ")
+        .replace("udemy.com/course/", "Udemy - ")
+        .replace(/\/$/, "");
+    return formatURL;
+};
+
 // Format date (fr)
 
 const formatDateFR = (date) => {
@@ -123,11 +135,15 @@ Promise.all([
                           url
                               .map(
                                   (link) =>
-                                      `<li><a href="${link}" target="_blank">${link}</a></li>`
+                                      `<li><a href="${link}" target="_blank">${formatURL(
+                                          link
+                                      )}</a></li>`
                               )
                               .join("") +
                           "</ul>"
-                        : `<a href="${url}" target="_blank">${url}</a>`;
+                        : `<a href="${url}" target="_blank">${formatURL(
+                              url
+                          )}</a>`;
                 });
                 sectionContent += "</ul></li>";
             });

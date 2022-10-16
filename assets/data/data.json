@@ -6,6 +6,7 @@
                 "links": [
                     {
                         "name": "Formations",
+                        "info": "payantes",
                         "url": [
                             "https://www.ecole-du-web.net/p/cours-html-en-partant-de-zero",
                             "https://www.udemy.com/course/html-le-cours-complet/",
@@ -136,6 +137,7 @@
                 "links": [
                     {
                         "name": "Formations",
+                        "info": "payantes",
                         "url": [
                             "https://www.ecole-du-web.net/p/le-javascript-de-a-a-z",
                             "https://www.udemy.com/course/le-javascript-de-a-a-z/"
@@ -148,14 +150,14 @@
                             "https://thevalleyofcode.com/js/",
                             "https://www.w3schools.com/js/",
                             "https://www.freecodecamp.org/news/full-javascript-course-for-beginners/",
-                            "https://www.digitalocean.com/community/tutorials?q=%5BJavaScript%5D",
-                            "https://youtu.be/X1umyXgJsA0"
+                            "https://www.digitalocean.com/community/tutorials?q=%5BJavaScript%5D"
                         ]
                     },
                     {
                         "name": "Chaînes Youtube",
                         "url": [
-                            "https://youtube.com/playlist?list=PLpG9MHuD988i5DeF_mVbcBd9t7nNCgKtC"
+                            "https://youtube.com/playlist?list=PLpG9MHuD988i5DeF_mVbcBd9t7nNCgKtC",
+                            "https://youtu.be/X1umyXgJsA0"
                         ]
                     }
                 ]
@@ -169,7 +171,7 @@
                     },
                     {
                         "name": "20 projets JavaScript",
-                        "info": "payant",
+                        "info": "payants",
                         "url": [
                             "https://www.ecole-du-web.net/p/20-projets-en-javascript",
                             "https://www.udemy.com/course/20-projets-en-javascript/"
@@ -309,6 +311,7 @@
                 "links": [
                     {
                         "name": "Formations",
+                        "info": "payantes",
                         "url": [
                             "https://www.udemy.com/course/react-formation-complete/"
                         ]
@@ -338,7 +341,7 @@
                 "links": [
                     {
                         "name": "10 Projets avec React",
-                        "info": "payant",
+                        "info": "payants",
                         "url": [
                             "https://www.ecole-du-web.net/p/10-projets-react",
                             "https://www.udemy.com/course/coder-10-projets-avec-react/"
@@ -350,7 +353,7 @@
                     },
                     {
                         "name": "Cloner Twitch avec React",
-                        "info": "payant",
+                        "info": "payants",
                         "url": [
                             "https://www.ecole-du-web.net/p/cloner-twitch-avec-react",
                             "https://www.udemy.com/course/cloner-twitch-avec-react/"
@@ -376,26 +379,6 @@
                         "name": "scrollex",
                         "info": "librairie",
                         "url": ["https://scrollex-docs.vercel.app/"]
-                    }
-                ]
-            }
-        ]
-    },
-    "PHP": {
-        "items": [
-            {
-                "title": "Apprentissage",
-                "links": [
-                    {
-                        "name": "Pierre Giraud",
-                        "url": [
-                            "https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/",
-                            "https://youtu.be/6AMZC3uIE4s"
-                        ]
-                    },
-                    {
-                        "name": "Grafikart",
-                        "url": "https://grafikart.fr/tutoriels/php"
                     }
                 ]
             }
@@ -479,6 +462,7 @@
                             "https://designmodo.com",
                             "https://www.envato.com",
                             "https://graphiste.com/blog",
+                            "https://www.lapa.ninja/learn/",
                             "https://medium.com/@usemuzli",
                             "https://www.olybop.fr",
                             "https://onepagelove.com/articles",
