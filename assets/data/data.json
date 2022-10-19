@@ -324,6 +324,7 @@
                     {
                         "name": "Chaînes Youtube",
                         "url": [
+                            "https://www.youtube.com/c/AnsontheDeveloper/",
                             "https://www.youtube.com/c/codeconcept",
                             "https://www.youtube.com/c/LamaDev",
                             "https://www.youtube.com/c/PedroTechnologies",
@@ -627,11 +628,17 @@
                     {
                         "name": "Gratuites",
                         "url": [
+                            "https://burst.shopify.com/",
+                            "https://www.foodiesfeed.com/",
+                            "https://freenaturestock.com/",
                             "https://freepixels.com/",
+                            "https://isorepublic.com/",
                             "https://kaboompics.com/gallery",
+                            "https://icons8.com/photos",
                             "https://www.pexels.com/fr-fr/",
                             "https://pixabay.com/fr/",
                             "https://www.splitshire.com/",
+                            "https://www.stockio.com/",
                             "https://stocksnap.io/",
                             "https://www.stockvault.net/",
                             "https://unsplash.com/"
@@ -646,14 +653,21 @@
                         "url": [
                             "https://css.gg/app",
                             "https://dryicons.com/",
+                            "https://feathericons.com/",
+                            "https://fontastic.me/",
                             "https://fontawesome.com/search?m=free",
                             "https://fonts.google.com/icons",
                             "https://heroicons.com/",
+                            "https://icofont.com/",
                             "https://icones.js.org/",
                             "https://iconmonstr.com/",
                             "https://iconstore.co/",
+                            "https://iconsvg.xyz/",
+                            "https://ikonate.com/",
+                            "https://ionic.io/ionicons",
                             "https://lordicon.com/",
                             "https://lucide.dev/",
+                            "https://remixicon.com/",
                             "https://tablericons.com/",
                             "https://thenounproject.com/"
                         ]
