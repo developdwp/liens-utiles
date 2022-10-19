@@ -584,12 +584,12 @@
                 "links": [
                     {
                         "url": [
+                            "https://www.code-couleur.com/signification/",
                             "https://color.adobe.com/fr/create/color-wheel",
                             "https://coolors.co/palettes/trending",
-                            "https://paletton.com/",
-                            "https://mycolor.space/",
                             "https://fffuel.co/pppalette/",
-                            "https://www.code-couleur.com/signification/"
+                            "https://paletton.com/",
+                            "https://mycolor.space/"
                         ]
                     }
                 ]
@@ -645,14 +645,15 @@
                     {
                         "url": [
                             "https://css.gg/app",
-                            "https://heroicons.com/",
                             "https://dryicons.com/",
-                            "https://iconstore.co/",
-                            "https://icones.js.org/",
-                            "https://lordicon.com/",
-                            "https://iconmonstr.com/",
                             "https://fontawesome.com/search?m=free",
                             "https://fonts.google.com/icons",
+                            "https://heroicons.com/",
+                            "https://icones.js.org/",
+                            "https://iconmonstr.com/",
+                            "https://iconstore.co/",
+                            "https://lordicon.com/",
+                            "https://lucide.dev/",
                             "https://tablericons.com/",
                             "https://thenounproject.com/"
                         ]
@@ -664,14 +665,14 @@
                 "links": [
                     {
                         "url": [
+                            "https://app.haikei.app/",
+                            "https://app.heazy.studio/",
                             "https://bgjar.com/",
                             "https://coolbackgrounds.io/",
-                            "https://app.haikei.app/",
-                            "https://www.svgbackgrounds.com/",
+                            "https://fffuel.co/",
                             "https://www.gradientmagic.com/",
                             "https://pattern.monster/",
-                            "https://app.heazy.studio/",
-                            "https://fffuel.co/"
+                            "https://www.svgbackgrounds.com/"
                         ]
                     }
                 ]
