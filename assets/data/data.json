@@ -601,7 +601,8 @@
                     {
                         "name": "Guidelines/Articles",
                         "url": [
-                            "https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/"
+                            "https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/",
+                            "https://uxplanet.org/font-psychology-tricks-to-enhance-your-ux-e88e247a6883"
                         ]
                     },
 
@@ -936,6 +937,16 @@
                     {
                         "url": [
                             "https://www.urssaf.fr/portail/home/actualites/toute-lactualite-independant.default.html"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Fiches pratiques",
+                "links": [
+                    {
+                        "url": [
+                            "https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/toutes-les-fiches-pratiques.html"
                         ]
                     }
                 ]

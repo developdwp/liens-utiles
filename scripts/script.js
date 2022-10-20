@@ -69,15 +69,6 @@ Promise.all([
             pushed_at
         )}`;
 
-        // Github stars (footer)
-
-        const purpose = 16;
-        const starsNeeded = purpose - stargazers_count;
-        if (stargazers_count < purpose) {
-            const githubStars = document.querySelector(".github-stars");
-            githubStars.innerHTML += `<span>(Plus que ${starsNeeded} pour le badge 🙏)</span>`;
-        }
-
         const navbar = document.querySelector("nav");
         navbar.innerHTML = "<p>Accès rapide</p>";
         const navList = document.createElement("ul");
@@ -99,7 +90,7 @@ Promise.all([
 
             // Content title
 
-            let sectionContent = `<h2 style="background:url('./assets/images/ico_${formatTitle(
+            let sectionContent = `<h2 class="section-title" style="background:url('./assets/images/ico_${formatTitle(
                 sectionName
             )}.png') left top no-repeat;background-size: 2.8rem;"><a id="${sectionTitle}" href="#${sectionTitle}">${sectionName}</a></h2>`;
             sectionContent += `<ul>`;
@@ -148,12 +139,28 @@ Promise.all([
                 sectionContent += "</ul></li>";
             });
 
-            navList.innerHTML = navContent;
-            navbar.append(navList);
-
             section.innerHTML = sectionContent;
             main.append(section);
         });
+
+        navContent += `<li class="nav-extralinks github-stars"><a href='https://github.com/Aelweak/liens-utiles' target="_blank">Mettre une ⭐ sur GitHub</a></li>
+        <li><a href='https://github.com/Aelweak/liens-utiles/issues/new/choose' target="_blank">Proposer/Signaler un lien</a></li>`;
+
+        navList.innerHTML = navContent;
+        navbar.append(navList);
+
+        // Github stars (footer)
+
+        const purpose = 16;
+        const starsNeeded = purpose - stargazers_count;
+        if (stargazers_count < purpose) {
+            const githubStars = document.querySelectorAll(".github-stars");
+            console.log(githubStars);
+            githubStars.forEach(
+                (link) =>
+                    (link.innerHTML += `<span>(Plus que ${starsNeeded} pour le badge 🙏)</span>`)
+            );
+        }
 
         // Nav (link active observer)
 

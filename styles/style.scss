@@ -93,6 +93,16 @@ nav {
                 }
             }
         }
+
+        .nav-extralinks {
+            margin-top: 2rem;
+
+            span {
+                display: block;
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
+            }
+        }
     }
 
     @media screen and (max-width: 1480px) {
@@ -101,7 +111,7 @@ nav {
 }
 
 main {
-    margin-bottom: 5rem;
+    margin-bottom: 50vh;
 
     h1 {
         span {
@@ -113,18 +123,6 @@ main {
 
         .last-update {
             font-weight: bold;
-        }
-    }
-
-    h2 {
-        padding-left: 3.5rem;
-        margin: 4rem 0 2rem 0;
-
-        a {
-            color: var(--font-color-base);
-            &:hover {
-                text-decoration: none;
-            }
         }
     }
 
@@ -149,9 +147,16 @@ main {
             }
         }
 
-        h2 {
+        .section-title {
+            padding-left: 3.5rem;
+            margin: 4rem 0 2rem 0;
+
             a {
+                color: var(--font-color-base);
                 scroll-margin-top: 45vh;
+                &:hover {
+                    text-decoration: none;
+                }
             }
         }
     }
@@ -223,42 +228,48 @@ main {
 }
 
 footer {
-    margin-top: 50vh;
-    font-size: 1.6rem;
+    display: none;
+}
 
-    ul {
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        gap: 3rem;
-        list-style-type: none;
+@media screen and (max-width: 1480px) {
+    footer {
+        display: block;
+        font-size: 1.6rem;
 
-        @media screen and (max-width: 768px) {
-            flex-direction: column;
-            align-items: center;
-        }
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            gap: 3rem;
+            list-style-type: none;
 
-        li {
-            text-align: center;
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+                align-items: center;
+            }
 
-            a {
-                padding: 0.5rem 1.5rem;
-                color: var(--font-color-base);
-                line-height: 1.6rem;
+            li {
                 text-align: center;
-                border-radius: 1em;
-                background-color: var(--color-lines);
 
-                &:hover {
-                    text-decoration: none;
+                a {
+                    padding: 0.5rem 1.5rem;
+                    color: var(--font-color-base);
+                    line-height: 1.6rem;
+                    text-align: center;
+                    border-radius: 1em;
+                    background-color: var(--color-lines);
+
+                    &:hover {
+                        text-decoration: none;
+                    }
                 }
             }
-        }
 
-        li:first-child {
-            span {
-                display: block;
-                margin-top: 0.5rem;
+            li:first-child {
+                span {
+                    display: block;
+                    margin-top: 0.5rem;
+                }
             }
         }
     }
