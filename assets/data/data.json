@@ -26,6 +26,7 @@
                             "https://www.freecodecamp.org/news/",
                             "https://ishadeed.com/articles/",
                             "https://www.joshwcomeau.com/tutorials/css/",
+                            "http://www.js-craft.io/",
                             "https://la-cascade.io/",
                             "https://www.matuzo.at/blog/",
                             "https://moderncss.dev/",
@@ -42,6 +43,7 @@
                     }
                 ]
             },
+
             {
                 "title": "Flexbox",
                 "links": [
@@ -103,6 +105,27 @@
                             "https://www.ecole-du-web.net/p/creer-un-site-professionnel-et-responsive",
                             "https://www.udemy.com/course/creer-un-site-professionnel-et-responsiv-en-2019/",
                             "https://www.frontendmentor.io/challenges?sort=difficulty%7Casc&types=free,free-plus"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Divers",
+                "links": [
+                    {
+                        "name": "Générateur font-size clamp()",
+                        "url": ["https://clamp.font-size.app/"]
+                    },
+                    {
+                        "name": "Générateur favicon",
+                        "url": ["https://realfavicongenerator.net/"]
+                    },
+                    {
+                        "name": "Balises OG",
+                        "url": [
+                            "https://metatags.io/",
+                            "https://www.opengraph.xyz/",
+                            "https://developers.facebook.com/tools/debug/"
                         ]
                     }
                 ]
@@ -800,6 +823,16 @@
                 ]
             },
             {
+                "title": "Images",
+                "links": [
+                    {
+                        "url": [
+                            "https://www.smashingmagazine.com/2022/07/powerful-image-optimization-tools/"
+                        ]
+                    }
+                ]
+            },
+            {
                 "title": "Empreinte carbone",
                 "links": [
                     {
@@ -952,20 +985,23 @@
                 ]
             },
             {
-                "title": "Définir un tarif",
+                "title": "Divers",
                 "links": [
                     {
+                        "name": "Définir un tarif",
                         "url": [
                             "https://www.webmarketing-com.com/2022/02/09/1695156-comment-estimer-salaire-freelance",
                             "https://blocnotes.iergo.fr/articles/comprendre-le-tjm-dun-freelance/"
                         ]
-                    }
-                ]
-            },
-            {
-                "title": "Comptabilité",
-                "links": [
+                    },
                     {
+                        "name": "Les charges du micro-entrepreneur",
+                        "url": [
+                            "https://www.notuxedo.com/quelles-charges-micro-entrepreneur/"
+                        ]
+                    },
+                    {
+                        "name": "Obligations comptables",
                         "url": [
                             "https://entreprendre.service-public.fr/vosdroits/F23266",
                             "https://www.blogdumoderateur.com/freelance-checklist-obligations-comptables-statut-juridique/"

@@ -156,9 +156,11 @@ Promise.all([
         if (stargazers_count < purpose) {
             const githubStars = document.querySelectorAll(".github-stars");
             console.log(githubStars);
-            githubStars.forEach(
-                (link) =>
-                    (link.innerHTML += `<span>(Plus que ${starsNeeded} pour le badge 🙏)</span>`)
+            githubStars.forEach((link) =>
+                link.insertAdjacentHTML(
+                    "beforeend",
+                    `<span>(Plus que ${starsNeeded} pour le badge 🙏)</span>`
+                )
             );
         }
 
