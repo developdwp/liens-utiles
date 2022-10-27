@@ -40,6 +40,10 @@
                             "https://www.youtube.com/kepowob",
                             "https://www.youtube.com/c/LeDesignerduWeb"
                         ]
+                    },
+                    {
+                        "name": "Mini-jeux",
+                        "url": ["https://codepip.com/games/"]
                     }
                 ]
             },
