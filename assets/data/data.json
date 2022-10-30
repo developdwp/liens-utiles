@@ -40,10 +40,6 @@
                             "https://www.youtube.com/kepowob",
                             "https://www.youtube.com/c/LeDesignerduWeb"
                         ]
-                    },
-                    {
-                        "name": "Mini-jeux",
-                        "url": ["https://codepip.com/games/"]
                     }
                 ]
             },
@@ -130,6 +126,12 @@
                             "https://metatags.io/",
                             "https://www.opengraph.xyz/",
                             "https://developers.facebook.com/tools/debug/"
+                        ]
+                    },
+                    {
+                        "name": "Checklist qualité site web",
+                        "url": [
+                            "https://checklists.opquast.com/fr/assurance-qualite-web/"
                         ]
                     }
                 ]
@@ -594,6 +596,7 @@
                         "url": [
                             "https://mobbin.com/browse/ios/apps",
                             "https://screenlane.com/",
+                            "https://scrnshts.club/",
                             "https://uigarage.net/platform/android/"
                         ]
                     }
