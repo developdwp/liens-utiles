@@ -409,6 +409,11 @@
                         "name": "scrollex",
                         "info": "librairie",
                         "url": ["https://scrollex-docs.vercel.app/"]
+                    },
+                    {
+                        "name": "Framer motion",
+                        "info": "librairie",
+                        "url": ["https://www.framer.com/docs/use-scroll/"]
                     }
                 ]
             }
@@ -640,7 +645,8 @@
                         "name": "Outils",
                         "url": [
                             "https://www.fontbrief.com/",
-                            "https://fontjoy.com/"
+                            "https://fontjoy.com/",
+                            "https://type-scale.com/"
                         ]
                     }
                 ]
