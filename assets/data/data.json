@@ -113,6 +113,10 @@
                 "title": "Divers",
                 "links": [
                     {
+                        "name": "Support/Compatibilité navigateurs",
+                        "url": ["https://caniuse.com/"]
+                    },
+                    {
                         "name": "Générateur font-size clamp()",
                         "url": ["https://clamp.font-size.app/"]
                     },
@@ -673,7 +677,9 @@
                             "https://kaboompics.com/gallery",
                             "https://icons8.com/photos",
                             "https://www.pexels.com/fr-fr/",
+                            "https://picjumbo.com/",
                             "https://pixabay.com/fr/",
+                            "https://shotstash.com/",
                             "https://www.splitshire.com/",
                             "https://www.stockio.com/",
                             "https://stocksnap.io/",
@@ -883,6 +889,10 @@
                     {
                         "name": "Vercel",
                         "url": "https://vercel.com/"
+                    },
+                    {
+                        "name": "Alternatives à Heroku",
+                        "url": "https://github.com/Engagespot/heroku-free-alternatives"
                     }
                 ]
             },
