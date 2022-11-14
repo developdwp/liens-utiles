@@ -78,6 +78,7 @@
                     {
                         "name": "Apprentissage",
                         "url": [
+                            "https://youtube.com/playlist?list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG",
                             "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids",
                             "https://la-cascade.io/articles/css-grid-layout-guide-complet",
                             "https://css-tricks.com/snippets/css/complete-guide-grid/",
@@ -135,7 +136,8 @@
                     {
                         "name": "Checklist qualité site web",
                         "url": [
-                            "https://checklists.opquast.com/fr/assurance-qualite-web/"
+                            "https://checklists.opquast.com/fr/assurance-qualite-web/",
+                            "https://wf-blog-2021.webflow.io/blog/the-essential-pre-launch-checklist-for-your-website"
                         ]
                     }
                 ]
@@ -553,7 +555,10 @@
                 "links": [
                     {
                         "name": "Pourquoi arrêter",
-                        "url": "https://www.atipik.ch/fr/blog/lorem-ipsum-ne-signifie-pas-contenu"
+                        "url": [
+                            "https://www.atipik.ch/fr/blog/lorem-ipsum-ne-signifie-pas-contenu",
+                            "https://uxplanet.org/should-we-use-lorem-ipsum-in-product-design-f1a09b9fd3ec"
+                        ]
                     },
                     {
                         "name": "UX writing",
@@ -808,7 +813,7 @@
                 "title": "Guidelines/Articles",
                 "links": [
                     {
-                        "name": "Google",
+                        "name": "Google Search Central",
                         "url": [
                             "https://developers.google.com/search/docs/advanced/guidelines/overview?hl=fr"
                         ]
