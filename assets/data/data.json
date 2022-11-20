@@ -81,9 +81,9 @@
                             "https://youtube.com/playlist?list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG",
                             "https://youtube.com/playlist?list=PLbSquHt1VCf1x_-1ytlVMT0AMwADlWtc1",
                             "https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids",
+                            "https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout#ressources_externes",
                             "https://la-cascade.io/articles/css-grid-layout-guide-complet",
-                            "https://css-tricks.com/snippets/css/complete-guide-grid/",
-                            "https://gridbyexample.com/learn/"
+                            "https://css-tricks.com/snippets/css/complete-guide-grid/"
                         ]
                     },
                     {
@@ -776,8 +776,13 @@
                         "name": "Sites/Blogs",
                         "url": [
                             "https://www.a11yproject.com/resources/",
-                            "https://web.dev/learn/accessibility/"
+                            "https://web.dev/learn/accessibility/",
+                            "https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/"
                         ]
+                    },
+                    {
+                        "name": "Outils",
+                        "url": ["https://a11y-automation.dev/automated-tools"]
                     }
                 ]
             }
