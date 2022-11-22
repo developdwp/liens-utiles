@@ -270,6 +270,16 @@
                 ]
             },
             {
+                "title": "Smooth scroll (seul)",
+                "links": [
+                    {
+                        "name": "Lenis",
+                        "info": "librairie",
+                        "url": ["https://github.com/studio-freight/lenis"]
+                    }
+                ]
+            },
+            {
                 "title": "Graphiques/Charts",
                 "links": [
                     {
