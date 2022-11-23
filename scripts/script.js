@@ -155,7 +155,6 @@ Promise.all([
         const starsNeeded = purpose - stargazers_count;
         if (stargazers_count < purpose) {
             const githubStars = document.querySelectorAll(".github-stars");
-            console.log(githubStars);
             githubStars.forEach((link) =>
                 link.insertAdjacentHTML(
                     "beforeend",
