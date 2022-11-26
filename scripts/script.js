@@ -60,19 +60,23 @@ Promise.all([
     fetch("https://api.github.com/repos/aelweak/liens-utiles").then((res2) =>
         res2.json()
     ),
+    fetch(
+        "https://api.github.com/repos/Aelweak/liens-utiles/commits?per_page=10"
+    ).then((res3) => res3.json()),
 ])
-    .then(([data, { pushed_at, stargazers_count }]) => {
+    .then(([data, { pushed_at, stargazers_count }, commits]) => {
         // Last update (last commit) date
 
         const lastUpdateContainer = document.querySelector(".last-update");
-        lastUpdateContainer.innerText = `Dernière MAJ : ${formatDateFR(
+        lastUpdateContainer.innerHTML = `Dernière MAJ : ${formatDateFR(
             pushed_at
-        )}`;
+        )} <button type="button" class="toggle-changelog">(Notes de mise à jour)</button>`;
 
         const navbar = document.querySelector("nav");
-        navbar.innerHTML = "<p>Accès rapide</p>";
         const navList = document.createElement("ul");
         let navContent = "";
+
+        const fragSection = document.createDocumentFragment();
 
         Object.entries(data).forEach(([sectionName, sectionData]) => {
             const { items } = sectionData;
@@ -138,10 +142,11 @@ Promise.all([
                 });
                 sectionContent += "</ul></li>";
             });
-
             section.innerHTML = sectionContent;
-            main.append(section);
+            fragSection.appendChild(section);
         });
+
+        main.appendChild(fragSection);
 
         navContent += `<li class="nav-extralinks github-stars"><a href='https://github.com/Aelweak/liens-utiles' target="_blank">Mettre une ⭐ sur GitHub</a></li>
         <li><a href='https://github.com/Aelweak/liens-utiles/issues/new/choose' target="_blank">Proposer/Signaler un lien</a></li>`;
@@ -186,6 +191,52 @@ Promise.all([
                 }
             });
         }
+
+        // Changelog modal
+
+        // Content
+
+        const changelogList = document.querySelector(".changelog-container ul");
+        const fragment = document.createDocumentFragment();
+        commits.forEach(
+            ({
+                commit: {
+                    committer: { date },
+                },
+                commit: { message },
+            }) => {
+                const newLine = document.createElement("li");
+                newLine.innerHTML = `${formatDateFR(
+                    date
+                )}<span>${message}</span>`;
+                fragment.appendChild(newLine);
+            }
+        );
+        changelogList.appendChild(fragment);
+
+        // Open/Close changelog modal
+
+        const changelogContainer = document.querySelector(
+            ".changelog-container"
+        );
+        const changelogBtn = document.querySelector(".toggle-changelog");
+        const closeModalBtn = document.querySelector(
+            ".changelog-container button"
+        );
+
+        changelogBtn.addEventListener("click", () => {
+            changelogContainer.showModal();
+            changelogContainer.setAttribute("aria-hidden", false);
+            document.body.classList.add("stop-scroll");
+        });
+
+        closeModalBtn.addEventListener("click", () => {
+            changelogContainer.close();
+            changelogContainer.setAttribute("aria-hidden", true);
+            document.body.classList.remove("stop-scroll");
+        });
+
+        // Intersection Observer - Current section (top left nav)
 
         const observer = new IntersectionObserver(handleIntersect, {
             rootMargin: "-50% 0px",
