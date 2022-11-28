@@ -30,9 +30,12 @@
 :root {
     --font: Outfit, Arial, Helvetica, sans-serif;
     --color-main: #20212a;
+    --color-secondary: #78787d;
     --color-lines: rgba(255, 255, 255, 0.063);
     --font-color-base: #ffffff;
     --font-color-link: #00aff4;
+    --font-color-valid: #168f16;
+    --font-color-error: #a10a0a;
 }
 
 ::backdrop {
@@ -58,6 +61,23 @@ $cat-colors: (
     emailing: #6a4d48,
     configPC: #58595b,
 );
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--font-color-link) var(--color-lines);
+}
+
+*::-webkit-scrollbar {
+    width: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--color-lines);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--font-color-link);
+}
 
 html {
     font-size: 62.5%;
@@ -300,16 +320,30 @@ footer {
     ul {
         display: flex;
         flex-direction: column;
-        margin-bottom: 2rem;
 
-        li {
-            font-weight: bold;
+        .commit-details {
             padding: 1rem 0;
             border-bottom: 1px solid var(--color-lines);
 
-            span {
-                font-weight: normal;
-                display: block;
+            .commit-date {
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+
+            .commit-msg-add {
+                color: var(--font-color-valid);
+            }
+
+            .commit-msg-delete {
+                color: var(--font-color-error);
+            }
+
+            .commit-msg-italic {
+                color: var(--color-secondary);
+            }
+
+            &:last-child {
+                margin-bottom: 2rem;
             }
         }
     }

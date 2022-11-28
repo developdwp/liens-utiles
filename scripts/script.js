@@ -1,3 +1,5 @@
+const repo = "https://api.github.com/repos/aelweak/liens-utiles";
+
 const main = document.querySelector("main");
 
 // Format URLs/italic words with Discord markdown
@@ -41,6 +43,22 @@ const formatDateFR = (date) => {
     return formatDate;
 };
 
+// Format commit message ([AJOUT] & [SUPPR])
+
+const formatCommitMsg = (msg) => {
+    const formatMsg = msg
+        .replaceAll("[Ajout]", "<span class='commit-msg-add'>[Ajout]</span>")
+        .replaceAll(
+            "[Suppr.]",
+            "<span class='commit-msg-delete'>[Suppr.]</span>"
+        )
+        .replace(
+            /\(([^)]+)\)/g,
+            (italic) => `<span class='commit-msg-italic'>${italic}</span>`
+        ); // Detect ( ) and add italic style to string inside
+    return formatMsg;
+};
+
 // Display "Copié !" on Discord icon click
 
 const animClick = (e) => {
@@ -57,12 +75,8 @@ const animClick = (e) => {
 
 Promise.all([
     fetch("./assets/data/data.json").then((res1) => res1.json()),
-    fetch("https://api.github.com/repos/aelweak/liens-utiles").then((res2) =>
-        res2.json()
-    ),
-    fetch(
-        "https://api.github.com/repos/Aelweak/liens-utiles/commits?per_page=10"
-    ).then((res3) => res3.json()),
+    fetch(repo).then((res2) => res2.json()),
+    fetch(`${repo}/commits?per_page=20`).then((res3) => res3.json()),
 ])
     .then(([data, { pushed_at, stargazers_count }, commits]) => {
         // Last update (last commit) date
@@ -154,9 +168,11 @@ Promise.all([
         navList.innerHTML = navContent;
         navbar.append(navList);
 
-        // Github stars (footer)
+        // ************************ //
+        // Github stars (footer & nav)
+        // ************************ //
 
-        const purpose = 16;
+        const purpose = 16; // 16 for first "Starstruck" achievements badge
         const starsNeeded = purpose - stargazers_count;
         if (stargazers_count < purpose) {
             const githubStars = document.querySelectorAll(".github-stars");
@@ -168,7 +184,9 @@ Promise.all([
             );
         }
 
+        // ************************ //
         // Nav (link active observer)
+        // ************************ //
 
         const sections = document.querySelectorAll("section");
         const navLink = document.querySelectorAll("nav li");
@@ -192,29 +210,18 @@ Promise.all([
             });
         }
 
+        const observer = new IntersectionObserver(handleIntersect, {
+            rootMargin: "-50% 0px",
+            threshold: 0,
+        });
+
+        sections.forEach((section) => {
+            observer.observe(section);
+        });
+
+        // ************* //
         // Changelog modal
-
-        // Content
-
-        const changelogList = document.querySelector(".changelog-container ul");
-        const fragment = document.createDocumentFragment();
-        commits.forEach(
-            ({
-                commit: {
-                    committer: { date },
-                },
-                commit: { message },
-            }) => {
-                const newLine = document.createElement("li");
-                newLine.innerHTML = `${formatDateFR(
-                    date
-                )}<span>${message}</span>`;
-                fragment.appendChild(newLine);
-            }
-        );
-        changelogList.appendChild(fragment);
-
-        // Open/Close changelog modal
+        // ************* //
 
         const changelogContainer = document.querySelector(
             ".changelog-container"
@@ -223,6 +230,47 @@ Promise.all([
         const closeModalBtn = document.querySelector(
             ".changelog-container button"
         );
+        const changelogList = document.querySelector(".changelog-container ul");
+
+        // Group commits by date
+
+        const result = commits.reduce((groupedDate, message) => {
+            const date = new Date(message.commit.committer.date)
+                .toISOString()
+                .substring(0, 10);
+            if (groupedDate[date] == null) groupedDate[date] = [];
+            groupedDate[date].push(message);
+            return groupedDate;
+        }, {});
+
+        // Commits details
+
+        const fragment = document.createDocumentFragment();
+        const properties = Object.keys(result);
+
+        properties.forEach((item) => {
+            const newLine = document.createElement("li");
+            newLine.classList.add("commit-details");
+
+            let messagesFromCommit = `<ul><li class="commit-date">${formatDateFR(
+                item
+            )}</li>`;
+            if (result[item].length > 1) {
+                result[item].forEach(
+                    (char) =>
+                        (messagesFromCommit += `<li>${char.commit.message}</li>`)
+                );
+            } else {
+                messagesFromCommit += `<li>${result[item][0].commit.message}`;
+            }
+            messagesFromCommit += "</ul>";
+            newLine.innerHTML = `${formatCommitMsg(messagesFromCommit)}`;
+            fragment.appendChild(newLine);
+        });
+
+        changelogList.appendChild(fragment);
+
+        // Open/Close changelog modal
 
         changelogBtn.addEventListener("click", () => {
             changelogContainer.showModal();
@@ -236,24 +284,15 @@ Promise.all([
             document.body.classList.remove("stop-scroll");
         });
 
-        // Intersection Observer - Current section (top left nav)
-
-        const observer = new IntersectionObserver(handleIntersect, {
-            rootMargin: "-50% 0px",
-            threshold: 0,
-        });
-
-        sections.forEach((section) => {
-            observer.observe(section);
-        });
-
+        // ********************************************************** //
         // Copy (from Discord icon) to clipboard (with Discord markdown)
+        // ********************************************************** //
 
         const discordIcons = document.querySelectorAll(".copyToDiscord");
 
         discordIcons.forEach((title) => {
-            title.addEventListener("click", (e) => {
-                const parent = e.target.closest("li");
+            title.addEventListener("click", ({ target }) => {
+                const parent = target.closest("li");
                 navigator.clipboard.writeText(
                     `>>> **__${parent.dataset.section} - ${
                         parent.innerText
@@ -265,7 +304,9 @@ Promise.all([
             });
         });
 
+        // ************** //
         // Scroll to anchor
+        // ************** //
 
         const { hash } = window.location;
         hash && document.querySelector(hash)?.scrollIntoView();
