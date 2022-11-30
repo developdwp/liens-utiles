@@ -55,7 +55,9 @@ const formatCommitMsg = (msg) => {
         .replace(
             /\(([^)]+)\)/g,
             (italic) => `<span class='commit-msg-italic'>${italic}</span>`
-        ); // Detect ( ) and add italic style to string inside
+        ) // Detect ( ) and add italic style to string inside
+
+        .replaceAll("||", "<li>");
     return formatMsg;
 };
 

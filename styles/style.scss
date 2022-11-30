@@ -362,6 +362,12 @@ footer {
 }
 
 @media screen and (max-width: 1480px) {
+    .changelog-container {
+        > div {
+            padding: 5rem;
+        }
+    }
+
     footer {
         display: block;
         font-size: 1.6rem;
