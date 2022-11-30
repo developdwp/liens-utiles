@@ -32,6 +32,7 @@
     --color-main: #20212a;
     --color-secondary: #78787d;
     --color-lines: rgba(255, 255, 255, 0.063);
+    --color-discord: #6873f7;
     --font-color-base: #ffffff;
     --font-color-link: #00aff4;
     --font-color-valid: #168f16;
@@ -239,8 +240,12 @@ main {
 
             .copyToDiscord {
                 position: absolute;
-                top: -0.3rem;
+                top: -0.1rem;
                 right: -3.5rem;
+
+                path {
+                    fill: var(--color-discord);
+                }
 
                 &:hover {
                     cursor: pointer;
@@ -291,9 +296,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 850px;
-    padding: 10rem;
+    overflow: hidden;
     color: var(--font-color-base);
     border: 0.3rem solid var(--font-color-link);
     background: var(--color-main);
@@ -302,48 +305,57 @@ footer {
         background: var(--color-backdrop);
     }
 
-    button {
-        position: fixed;
-        top: 0;
-        right: 2rem;
-        font-size: 4rem;
+    > div {
+        width: 100%;
+        max-width: 850px;
+        height: 100%;
+        max-height: 1000px;
+        padding: 10rem;
+        overflow-y: scroll;
 
-        &:hover {
-            text-decoration: none;
+        button {
+            position: absolute;
+            top: 0;
+            right: 3rem;
+            font-size: 4rem;
+
+            &:hover {
+                text-decoration: none;
+            }
         }
-    }
 
-    h2 {
-        margin-bottom: 1rem;
-    }
+        h2 {
+            margin-bottom: 1rem;
+        }
 
-    ul {
-        display: flex;
-        flex-direction: column;
+        ul {
+            display: flex;
+            flex-direction: column;
 
-        .commit-details {
-            padding: 1rem 0;
-            border-bottom: 1px solid var(--color-lines);
+            .commit-details {
+                padding: 1rem 0;
+                border-bottom: 1px solid var(--color-lines);
 
-            .commit-date {
-                font-weight: bold;
-                margin-bottom: 0.5rem;
-            }
+                .commit-date {
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                }
 
-            .commit-msg-add {
-                color: var(--font-color-valid);
-            }
+                .commit-msg-add {
+                    color: var(--font-color-valid);
+                }
 
-            .commit-msg-delete {
-                color: var(--font-color-error);
-            }
+                .commit-msg-delete {
+                    color: var(--font-color-error);
+                }
 
-            .commit-msg-italic {
-                color: var(--color-secondary);
-            }
+                .commit-msg-italic {
+                    color: var(--color-secondary);
+                }
 
-            &:last-child {
-                margin-bottom: 2rem;
+                &:last-child {
+                    margin-bottom: 2rem;
+                }
             }
         }
     }
