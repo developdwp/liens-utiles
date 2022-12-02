@@ -117,6 +117,13 @@
                 "title": "Divers",
                 "links": [
                     {
+                        "name": "Analyse code CSS",
+                        "url": [
+                            "https://www.projectwallace.com/analyze-css",
+                            "https://www.projectwallace.com/css-code-quality"
+                        ]
+                    },
+                    {
                         "name": "Support/Compatibilité navigateurs",
                         "url": ["https://caniuse.com/"]
                     },
@@ -1051,6 +1058,12 @@
                         "url": [
                             "https://entreprendre.service-public.fr/vosdroits/F23266",
                             "https://www.blogdumoderateur.com/freelance-checklist-obligations-comptables-statut-juridique/"
+                        ]
+                    },
+                    {
+                        "name": "Assurance professionnelle ?",
+                        "url": [
+                            "https://www.codeur.com/blog/assurance-professionnelle-freelance/"
                         ]
                     }
                 ]
