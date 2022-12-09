@@ -2,50 +2,49 @@ const repo = "https://api.github.com/repos/aelweak/liens-utiles";
 
 const main = document.querySelector("main");
 
-// Format URLs/italic words with Discord markdown
+// Format URL, italic words, @mention
 
-const formatDiscord = (str) => {
-    let formatStr = str
-        .replace(/(https?:\/\/[^\s]+)/g, (url) => `<${url}>`) // Detect url and add < > arround
-        .replace(/\(([^)]+)\)/g, (italic) => `*${italic}*`) // Detect ( ) and add italic style to string inside
-        .replace("discord://", "https://");
+function formatDiscord(str) {
+    const formatStr = str
+        .replace(/(https?:\/\/[^\s]+)/g, (url) => `<${url}>`) // Detect url and add < > each sides
+        .replace(/\(([^)]+)\)/g, (italic) => `*${italic}*`); // Detect ( ) and add italic style to string inside
     return formatStr;
-};
+}
 
 // Format ids/classes/anchors name
 
-const formatTitle = (str) => {
-    let formatTitle = str
+function formatTitle(str) {
+    const formatTitle = str
         .normalize("NFD") // Unicode normalization form (NFD = canonical decomposition)
         .replace(/[\u0300-\u036f-()\.]/g, "") // Remove accents, dot and parenthesis
         .replace(/[^a-zA-Z0-9-Ü-ü-\.]/g, "-")
         .replace("---", "-")
         .toLowerCase();
     return formatTitle;
-};
+}
 
-// Format URL
+// Format specific URL
 
-const formatURL = (url) => {
-    let formatURL = url
+function formatURL(url) {
+    const formatURL = url
         .replace(/^https?:\/\/(www.)?/, "") // Delete http://, http://www., https:// and https://www.
         .replace("youtube.com/c/", "")
         .replace("ecole-du-web.net/p/", "Ecole du Web - ")
         .replace("udemy.com/course/", "Udemy - ")
         .replace(/\/$/, "");
     return formatURL;
-};
+}
 
 // Format date (fr)
 
-const formatDateFR = (date) => {
-    let formatDate = new Date(date).toLocaleDateString();
+function formatDateFR(date) {
+    const formatDate = new Date(date).toLocaleDateString();
     return formatDate;
-};
+}
 
 // Format commit message ([AJOUT] & [SUPPR])
 
-const formatCommitMsg = (msg) => {
+function formatCommitMsg(msg) {
     const formatMsg = msg
         .replaceAll("[Ajout]", "<span class='commit-msg-add'>[Ajout]</span>")
         .replaceAll(
@@ -56,14 +55,17 @@ const formatCommitMsg = (msg) => {
             /\(([^)]+)\)/g,
             (italic) => `<span class='commit-msg-italic'>${italic}</span>`
         ) // Detect ( ) and add italic style to string inside
-
+        .replace(/\@([^)]+)\@/g, (profile) => {
+            const formatProfile = profile.replaceAll("@", "");
+            return `- 🙏<a href="https://github.com/${formatProfile}" target="_blank">${formatProfile}</a>`;
+        }) // Detect @ @ and add github link to it
         .replaceAll("||", "<li>");
     return formatMsg;
-};
+}
 
 // Display "Copié !" on Discord icon click
 
-const animClick = (target) => {
+function animClick(target) {
     const titre = target.closest(".titles");
     const copyMsg = document.createElement("span");
     copyMsg.classList.add("copyMsg");
@@ -73,7 +75,7 @@ const animClick = (target) => {
     setTimeout(() => {
         copyMsg.remove();
     }, 500);
-};
+}
 
 Promise.all([
     fetch("./assets/data/data.json").then((res1) => res1.json()),
@@ -85,7 +87,7 @@ Promise.all([
 
         const lastUpdateContainer = document.querySelector(".last-update");
         lastUpdateContainer.innerHTML = `Dernière MAJ : ${formatDateFR(
-            commits[0].commit.author.date
+            commits[0]?.commit.author.date
         )} <button type="button" class="toggle-changelog">(Notes de mise à jour)</button>`;
 
         const navbar = document.querySelector("nav");
@@ -112,7 +114,7 @@ Promise.all([
 
             let sectionContent = `<h2 class="section-title" style="background:url('./assets/images/ico_${formatTitle(
                 sectionName
-            )}.png') left center no-repeat;background-size: 2.8rem;"><a id="${sectionTitle}" href="#${sectionTitle}">${sectionName}</a></h2>`;
+            )}.webp') left center no-repeat;background-size: 2.8rem;"><a id="${sectionTitle}" href="#${sectionTitle}">${sectionName}</a></h2>`;
             sectionContent += `<ul>`;
 
             // Content links

@@ -128,6 +128,10 @@
                         "url": ["https://caniuse.com/"]
                     },
                     {
+                        "name": "Imbrication balises HTML",
+                        "url": ["https://caninclude.glitch.me/"]
+                    },
+                    {
                         "name": "Générateur font-size clamp()",
                         "url": ["https://clamp.font-size.app/"]
                     },
@@ -374,13 +378,17 @@
 
                     {
                         "name": "Sites/Blogs",
-                        "url": ["https://beta.reactjs.org/learn"]
+                        "url": [
+                            "https://beta.reactjs.org/learn",
+                            "https://www.developerway.com/"
+                        ]
                     },
                     {
                         "name": "Chaînes Youtube",
                         "url": [
                             "https://www.youtube.com/c/AnsontheDeveloper/",
                             "https://www.youtube.com/c/codeconcept",
+                            "https://www.youtube.com/c/DailyTuition",
                             "https://www.youtube.com/c/LamaDev",
                             "https://www.youtube.com/c/PedroTechnologies",
                             "https://www.youtube.com/channel/UCQrQo7jTpOh8V9EDn9Tgnxg",
@@ -541,7 +549,7 @@
                     },
                     {
                         "name": "Chaînes Youtube",
-                        "url": "discord://discord.com/channels/655077317911117860/661938087600848907/943531609045483590"
+                        "url": "https://discord.com/channels/655077317911117860/661938087600848907/943531609045483590"
                     }
                 ]
             },
@@ -737,7 +745,8 @@
                             "https://lucide.dev/",
                             "https://remixicon.com/",
                             "https://tablericons.com/",
-                            "https://thenounproject.com/"
+                            "https://thenounproject.com/",
+                            "https://unblast.com/"
                         ]
                     }
                 ]
