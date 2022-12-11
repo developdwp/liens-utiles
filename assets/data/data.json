@@ -25,6 +25,7 @@
                             "https://css-tricks.com/archives/",
                             "https://davidwalsh.name/",
                             "https://www.freecodecamp.org/news/",
+                            "https://www.htmhell.dev/",
                             "https://ishadeed.com/articles/",
                             "https://www.joshwcomeau.com/tutorials/css/",
                             "http://www.js-craft.io/",
@@ -102,13 +103,21 @@
                 ]
             },
             {
-                "title": "Exercices intégration",
+                "title": "Exercices",
                 "links": [
                     {
+                        "name": "Intégration",
                         "url": [
                             "https://www.ecole-du-web.net/p/creer-un-site-professionnel-et-responsive",
                             "https://www.udemy.com/course/creer-un-site-professionnel-et-responsiv-en-2019/",
                             "https://www.frontendmentor.io/challenges?sort=difficulty%7Casc&types=free,free-plus"
+                        ]
+                    },
+                    {
+                        "name": "Divers CSS",
+                        "url": [
+                            "https://www.adventofcss.com/",
+                            "https://www.le-designer-du-web.com/news"
                         ]
                     }
                 ]
@@ -215,37 +224,17 @@
                 "title": "Exercices",
                 "links": [
                     {
-                        "name": "11 idées de projet pour s'améliorer en JS",
-                        "url": "https://youtu.be/k20PPvAg_Oo"
-                    },
-                    {
-                        "name": "20 projets JavaScript",
-                        "info": "payants",
                         "url": [
+                            "https://www.adventofjs.com/",
+                            "https://adventjs.dev/",
+                            "https://edabit.com/challenges/javascript",
                             "https://www.ecole-du-web.net/p/20-projets-en-javascript",
-                            "https://www.udemy.com/course/20-projets-en-javascript/"
+                            "https://www.udemy.com/course/20-projets-en-javascript/",
+                            "https://www.frontendmentor.io/challenges?languages=HTML%7CCSS%7CJS&types=free,free-plus_nhttps://devchallenges.io/",
+                            "https://fr.javascript.info/",
+                            "https://www.jschallenger.com/",
+                            "https://tympanus.net/codrops/category/tutorials/"
                         ]
-                    },
-                    {
-                        "name": "JSchallenger",
-                        "url": "https://www.jschallenger.com/"
-                    },
-                    {
-                        "name": "Edabit",
-                        "url": "https://edabit.com/challenges/javascript"
-                    },
-                    {
-                        "name": "Frontendmentor",
-                        "url": "https://www.frontendmentor.io/challenges?languages=HTML%7CCSS%7CJS&types=free,free-plus_nhttps://devchallenges.io/"
-                    },
-                    {
-                        "name": "Javascript.info",
-                        "info": "en fin d'articles",
-                        "url": "https://fr.javascript.info/"
-                    },
-                    {
-                        "name": "Tympanus",
-                        "url": "https://tympanus.net/codrops/category/tutorials/"
                     }
                 ]
             },
@@ -621,7 +610,10 @@
                             "https://www.behance.net/",
                             "https://collectui.com/",
                             "https://www.cssdesignawards.com/",
+                            "https://www.darkmodedesign.com/",
+                            "https://www.designspiration.com/",
                             "https://dribbble.com/",
+                            "https://ecomm.design/",
                             "https://httpster.net/",
                             "https://land-book.com/",
                             "https://www.landingfolio.com/",
@@ -629,6 +621,7 @@
                             "https://onepagelove.com/",
                             "https://pagecollective.com/",
                             "https://www.pinterest.fr/search/pins/?q=webdesign",
+                            "https://saaslandingpage.com/",
                             "https://www.siteinspire.com/",
                             "https://uigarage.net/platform/web/"
                         ]
@@ -639,7 +632,8 @@
                             "https://mobbin.com/browse/ios/apps",
                             "https://screenlane.com/",
                             "https://scrnshts.club/",
-                            "https://uigarage.net/platform/android/"
+                            "https://uigarage.net/platform/android/",
+                            "https://www.uisources.com/screenshots"
                         ]
                     }
                 ]
@@ -705,13 +699,23 @@
                             "https://burst.shopify.com/",
                             "https://www.foodiesfeed.com/",
                             "https://freenaturestock.com/",
+                            "https://freephotos.cc/fr",
                             "https://freepixels.com/",
                             "https://isorepublic.com/",
                             "https://kaboompics.com/gallery",
                             "https://icons8.com/photos",
+                            "https://isorepublic.com/",
+                            "https://libreshot.com/",
+                            "https://librestock.com/",
+                            "https://www.lifeofpix.com/",
+                            "https://magdeleine.co/browse/",
+                            "https://negativespace.co/",
                             "https://www.pexels.com/fr-fr/",
+                            "https://photostockeditor.com/",
                             "https://picjumbo.com/",
+                            "https://picography.co/",
                             "https://pixabay.com/fr/",
+                            "https://pixambo.com/",
                             "https://shotstash.com/",
                             "https://www.splitshire.com/",
                             "https://www.stockio.com/",
@@ -858,6 +862,14 @@
     },
     "Performances/Optimisations": {
         "items": [
+            {
+                "title": "Sites/Blogs",
+                "links": [
+                    {
+                        "url": ["https://calendar.perfplanet.com/"]
+                    }
+                ]
+            },
             {
                 "title": "Outils",
                 "links": [
