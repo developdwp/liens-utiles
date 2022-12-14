@@ -28,7 +28,7 @@ function formatTitle(str) {
 function formatURL(url) {
     const formatURL = url
         .replace(/^https?:\/\/(www.)?/, "") // Delete http://, http://www., https:// and https://www.
-        .replace("youtube.com/c/", "")
+        .replace("youtube.com/@", "")
         .replace("ecole-du-web.net/p/", "Ecole du Web - ")
         .replace("udemy.com/course/", "Udemy - ")
         .replace(/\/$/, "");
@@ -46,19 +46,19 @@ function formatDateFR(date) {
 
 function formatCommitMsg(msg) {
     const formatMsg = msg
-        .replaceAll("[Ajout]", "<span class='commit-msg-add'>[Ajout]</span>")
+        .replaceAll("[Ajout]", "<span class='commit-msg-add'>[Ajout]</span>") // Add green color to [Ajout] tag
         .replaceAll(
             "[Suppr.]",
             "<span class='commit-msg-delete'>[Suppr.]</span>"
-        )
+        ) // Add red color to [Suppr.] tag
         .replace(
             /\(([^)]+)\)/g,
             (italic) => `<span class='commit-msg-italic'>${italic}</span>`
         ) // Detect ( ) and add italic style to string inside
-        .replace(/\@([^)]+)\@/g, (profile) => {
-            const formatProfile = profile.replaceAll("@", "");
+        .replace(/\B@\w+/g, (profile) => {
+            const formatProfile = profile.substring(1);
             return `- 🙏<a href="https://github.com/${formatProfile}" target="_blank">${formatProfile}</a>`;
-        }) // Detect @ @ and add github link to it
+        }) // Detect @mention and add github link to it
         .replaceAll("||", "<li>");
     return formatMsg;
 }

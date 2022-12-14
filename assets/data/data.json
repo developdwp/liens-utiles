@@ -21,6 +21,7 @@
                         "url": [
                             "https://www.alsacreations.com/home/",
                             "https://blog.openreplay.com/",
+                            "https://blog.webdevsimplified.com/",
                             "https://css-irl.info/",
                             "https://css-tricks.com/archives/",
                             "https://davidwalsh.name/",
@@ -38,9 +39,13 @@
                     {
                         "name": "Chaînes Youtube",
                         "url": [
-                            "https://www.youtube.com/c/CSSWeekly",
-                            "https://www.youtube.com/kepowob",
-                            "https://www.youtube.com/c/LeDesignerduWeb"
+                            "https://www.youtube.com/@CSSWeekly",
+                            "https://www.youtube.com/@ChromeDevs",
+                            "https://www.youtube.com/@KevinPowell",
+                            "https://www.youtube.com/@LeDesignerduWeb",
+                            "https://www.youtube.com/@NetNinja",
+                            "https://www.youtube.com/@WebDevSimplified",
+                            "https://www.youtube.com/@WesBos"
                         ]
                     }
                 ]
@@ -204,6 +209,7 @@
                     {
                         "name": "Sites/Blogs",
                         "url": [
+                            "https://blog.webdevsimplified.com/",
                             "https://fr.javascript.info/",
                             "https://thevalleyofcode.com/js/",
                             "https://www.w3schools.com/js/",
@@ -214,8 +220,14 @@
                     {
                         "name": "Chaînes Youtube",
                         "url": [
-                            "https://youtube.com/playlist?list=PLpG9MHuD988i5DeF_mVbcBd9t7nNCgKtC",
-                            "https://youtu.be/X1umyXgJsA0"
+                            "https://www.youtube.com/@Ansonthedev",
+                            "https://www.youtube.com/@Codeconcept",
+                            "https://www.youtube.com/@Envatotuts",
+                            "https://www.youtube.com/@LamaDev",
+                            "https://www.youtube.com/@LeDesignerduWeb",
+                            "https://www.youtube.com/@NetNinja",
+                            "https://www.youtube.com/@PedroTechnologies",
+                            "https://www.youtube.com/@WebDevSimplified"
                         ]
                     }
                 ]
@@ -268,6 +280,11 @@
                         "name": "Locomotive Scroll",
                         "info": "librairie",
                         "url": "https://github.com/locomotivemtl/locomotive-scroll"
+                    },
+                    {
+                        "name": "Luge",
+                        "info": "librairie",
+                        "url": "https://github.com/AntoineW/luge"
                     }
                 ]
             },
@@ -341,12 +358,10 @@
                 "title": "Faire du jQuery sans... jQuery",
                 "links": [
                     {
-                        "name": "CSS trick",
-                        "url": "https://css-tricks.com/now-ever-might-not-need-jquery/"
-                    },
-                    {
-                        "name": "SansjQuery",
-                        "url": "https://sansjquery.fr/"
+                        "url": [
+                            "https://css-tricks.com/now-ever-might-not-need-jquery/",
+                            "https://sansjquery.fr/"
+                        ]
                     }
                 ]
             }
@@ -369,22 +384,24 @@
                         "name": "Sites/Blogs",
                         "url": [
                             "https://beta.reactjs.org/learn",
+                            "https://blog.webdevsimplified.com/",
                             "https://www.developerway.com/"
                         ]
                     },
                     {
                         "name": "Chaînes Youtube",
                         "url": [
-                            "https://www.youtube.com/c/AnsontheDeveloper/",
-                            "https://www.youtube.com/c/codeconcept",
-                            "https://www.youtube.com/c/DailyTuition",
-                            "https://www.youtube.com/c/LamaDev",
-                            "https://www.youtube.com/c/PedroTechnologies",
-                            "https://www.youtube.com/channel/UCQrQo7jTpOh8V9EDn9Tgnxg",
-                            "https://www.youtube.com/c/TheNetNinja",
-                            "https://www.youtube.com/c/WebDevSimplified",
-                            "https://www.youtube.com/c/WrongAkram",
-                            "https://youtube.com/playlist?list=PLpG9MHuD988g-7vniIEs0yk8bmxL35v7c"
+                            "https://www.youtube.com/@Ansonthedev",
+                            "https://www.youtube.com/@Codeconcept",
+                            "https://www.youtube.com/@DailyTuition",
+                            "https://www.youtube.com/@LamaDev",
+                            "https://www.youtube.com/@LeDesignerduWeb",
+                            "https://www.youtube.com/@NetNinja",
+                            "https://www.youtube.com/@PedroTechnologies",
+                            "https://www.youtube.com/@The_full_stack_junkie",
+                            "https://www.youtube.com/@WebDevSimplified",
+                            "https://www.youtube.com/@WesBos",
+                            "https://www.youtube.com/@WrongAkram"
                         ]
                     }
                 ]
@@ -748,6 +765,7 @@
                             "https://lordicon.com/",
                             "https://lucide.dev/",
                             "https://remixicon.com/",
+                            "https://www.streamlinehq.com/freebies",
                             "https://tablericons.com/",
                             "https://thenounproject.com/",
                             "https://unblast.com/"
@@ -790,9 +808,9 @@
                     {
                         "name": "Chaînes Youtube",
                         "url": [
-                            "https://www.youtube.com/c/splinetool/videos",
+                            "https://www.youtube.com/@splinetool",
                             "https://www.youtube.com/watch?v=EJxeMbDTkVI",
-                            "https://www.youtube.com/c/MinhPhamDesign/search?query=spline"
+                            "https://www.youtube.com/@MinhPhamDesign/search?query=spline"
                         ]
                     }
                 ]
