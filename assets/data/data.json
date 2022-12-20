@@ -535,6 +535,7 @@
                             "https://www.blogduwebdesign.com",
                             "https://bloguxdesigner.fr",
                             "https://designmodo.com",
+                            "https://designstrategy.guide/blog/",
                             "https://www.envato.com",
                             "https://graphiste.com/blog",
                             "https://www.lapa.ninja/learn/",
@@ -581,6 +582,27 @@
                     {
                         "name": "VisBug",
                         "url": "https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc"
+                    }
+                ]
+            },
+            {
+                "title": "Design system",
+                "links": [
+                    {
+                        "name": "Apprentissage",
+                        "url": [
+                            "https://medium.com/ux-planet/design-system-from-scratch-episode-1-b83c7561c602",
+                            "https://uxplanet.org/design-system-from-scratch-episode-2-components-ea1f32984f39",
+                            "https://designstrategy.guide/design-management/the-ultimate-design-systems-resources-list/"
+                        ]
+                    },
+                    {
+                        "name": "Exemples",
+                        "url": [
+                            "https://www.smashingmagazine.com/2022/11/design-systems-inspiration-resources-case-studies/",
+                            "https://uxplanet.org/10-figma-design-systems-to-help-you-build-products-10x-faster-24e45ee33e71",
+                            "https://designstrategy.guide/design-management/the-ultimate-design-systems-resources-list/"
+                        ]
                     }
                 ]
             },
