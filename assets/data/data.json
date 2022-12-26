@@ -27,6 +27,7 @@
                             "https://davidwalsh.name/",
                             "https://www.freecodecamp.org/news/",
                             "https://www.htmhell.dev/",
+                            "https://iamvdo.me/blog",
                             "https://ishadeed.com/articles/",
                             "https://www.joshwcomeau.com/tutorials/css/",
                             "http://www.js-craft.io/",
@@ -165,7 +166,7 @@
                         ]
                     },
                     {
-                        "name": "Checklist qualité site web",
+                        "name": "Checklists",
                         "url": [
                             "https://checklists.opquast.com/fr/assurance-qualite-web/",
                             "https://wf-blog-2021.webflow.io/blog/the-essential-pre-launch-checklist-for-your-website"
@@ -196,6 +197,133 @@
             }
         ]
     },
+
+    "Accessibilité": {
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Sites/Blogs",
+                        "url": [
+                            "https://www.a11yproject.com/resources/",
+                            "https://www.sarasoueidan.com/blog/",
+                            "https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/",
+                            "https://web.dev/learn/accessibility/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Divers",
+                "links": [
+                    {
+                        "name": "Checklists",
+                        "url": ["https://webaccessibilitychecklist.com/"]
+                    },
+                    {
+                        "name": "Outils",
+                        "url": ["https://a11y-automation.dev/automated-tools"]
+                    }
+                ]
+            }
+        ]
+    },
+
+    "SEO": {
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Sites/Blogs",
+                        "url": [
+                            "https://www.abondance.com/",
+                            "https://audreytips.com/",
+                            "https://arobasenet.com/",
+                            "https://www.blogdumoderateur.com/",
+                            "https://blog.hubspot.fr/",
+                            "https://www.codeur.com/blog/",
+                            "https://www.ecommerce-nation.fr/",
+                            "https://www.fasterize.com/",
+                            "https://www.matthieu-tranvan.fr/",
+                            "https://www.notuxedo.com/",
+                            "https://fr.semrush.com/blog/",
+                            "https://www.smashingmagazine.com/",
+                            "https://www.webmarketing-com.com/",
+                            "https://www.webrankinfo.com/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Guidelines/Articles",
+                "links": [
+                    {
+                        "name": "Google Search Central",
+                        "url": [
+                            "https://developers.google.com/search/docs/advanced/guidelines/overview?hl=fr"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Performances/Optimisations": {
+        "items": [
+            {
+                "title": "Sites/Blogs",
+                "links": [
+                    {
+                        "url": ["https://calendar.perfplanet.com/"]
+                    }
+                ]
+            },
+            {
+                "title": "Outils",
+                "links": [
+                    {
+                        "url": [
+                            "https://developers.google.com/speed/pagespeed/insights/",
+                            "https://search.google.com/search-console/about?hl=fr",
+                            "https://search.google.com/test/mobile-friendly",
+                            "https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr",
+                            "https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma",
+                            "https://gtmetrix.com/",
+                            "https://www.dareboost.com/fr",
+                            "https://seositecheckup.com/tools/html-page-size-test",
+                            "https://www.bing.com/webmasters/about",
+                            "https://fr.semrush.com/blog/outils-seo-gratuits/",
+                            "https://www.webpagetest.org/",
+                            "http://yslow.org/",
+                            "https://seolyzer.io/fr/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Images",
+                "links": [
+                    {
+                        "url": [
+                            "https://www.smashingmagazine.com/2022/07/powerful-image-optimization-tools/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Empreinte carbone",
+                "links": [
+                    {
+                        "url": [
+                            "https://greenframe.io/",
+                            "https://github.com/CaenCamp/front-next-caencamp/discussions/21"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     "JavaScript": {
         "items": [
             {
@@ -213,12 +341,12 @@
                         "name": "Sites/Blogs",
                         "url": [
                             "https://blog.webdevsimplified.com/",
-                            "https://fr.javascript.info/",
-                            "https://thevalleyofcode.com/js/",
-                            "https://www.w3schools.com/js/",
-                            "https://www.freecodecamp.org/news/full-javascript-course-for-beginners/",
                             "https://www.digitalocean.com/community/tutorials?q=%5BJavaScript%5D",
-                            "https://stackdiary.com/category/development/"
+                            "https://www.freecodecamp.org/news/full-javascript-course-for-beginners/",
+                            "https://fr.javascript.info/",
+                            "https://stackdiary.com/category/development/",
+                            "https://thevalleyofcode.com/js/",
+                            "https://www.w3schools.com/js/"
                         ]
                     },
                     {
@@ -371,6 +499,46 @@
             }
         ]
     },
+    "Regex": {
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "url": [
+                            "https://www.freecodecamp.org/news/regular-expressions-for-beginners/",
+                            "https://regexlearn.com/",
+                            "https://regexone.com/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Tests/Verif",
+                "links": [
+                    {
+                        "url": ["https://regex101.com/", "https://regexr.com/"]
+                    }
+                ]
+            },
+            {
+                "title": "Snippets",
+                "links": [
+                    {
+                        "url": "https://ihateregex.io/"
+                    }
+                ]
+            },
+            {
+                "title": "Cheatsheet",
+                "links": [
+                    {
+                        "url": "https://cheatography.com/davechild/cheat-sheets/regular-expressions/"
+                    }
+                ]
+            }
+        ]
+    },
     "React": {
         "items": [
             {
@@ -473,46 +641,6 @@
                         "url": [
                             "https://docs.google.com/document/d/1JHgmEFkc8Py4XSuCB8_DQ5FFEJoogyeninFK6ucTd4o/edit"
                         ]
-                    }
-                ]
-            }
-        ]
-    },
-    "Regex": {
-        "items": [
-            {
-                "title": "Apprentissage",
-                "links": [
-                    {
-                        "url": [
-                            "https://www.freecodecamp.org/news/regular-expressions-for-beginners/",
-                            "https://regexlearn.com/",
-                            "https://regexone.com/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Tests/Verif",
-                "links": [
-                    {
-                        "url": ["https://regex101.com/", "https://regexr.com/"]
-                    }
-                ]
-            },
-            {
-                "title": "Snippets",
-                "links": [
-                    {
-                        "url": "https://ihateregex.io/"
-                    }
-                ]
-            },
-            {
-                "title": "Cheatsheet",
-                "links": [
-                    {
-                        "url": "https://cheatography.com/davechild/cheat-sheets/regular-expressions/"
                     }
                 ]
             }
@@ -722,6 +850,7 @@
                         "url": [
                             "https://www.fontbrief.com/",
                             "https://fontjoy.com/",
+                            "https://www.layoutgridcalculator.com/type-scale/",
                             "https://type-scale.com/"
                         ]
                     }
@@ -839,122 +968,6 @@
                             "https://www.youtube.com/@splinetool",
                             "https://www.youtube.com/watch?v=EJxeMbDTkVI",
                             "https://www.youtube.com/@MinhPhamDesign/search?query=spline"
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "Accessibilité": {
-        "items": [
-            {
-                "title": "Apprentissage",
-                "links": [
-                    {
-                        "name": "Sites/Blogs",
-                        "url": [
-                            "https://www.a11yproject.com/resources/",
-                            "https://web.dev/learn/accessibility/",
-                            "https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/"
-                        ]
-                    },
-                    {
-                        "name": "Outils",
-                        "url": ["https://a11y-automation.dev/automated-tools"]
-                    }
-                ]
-            }
-        ]
-    },
-
-    "SEO": {
-        "items": [
-            {
-                "title": "Apprentissage",
-                "links": [
-                    {
-                        "name": "Sites/Blogs",
-                        "url": [
-                            "https://www.abondance.com/",
-                            "https://audreytips.com/",
-                            "https://arobasenet.com/",
-                            "https://www.blogdumoderateur.com/",
-                            "https://blog.hubspot.fr/",
-                            "https://www.codeur.com/blog/",
-                            "https://www.ecommerce-nation.fr/",
-                            "https://www.fasterize.com/",
-                            "https://www.matthieu-tranvan.fr/",
-                            "https://www.notuxedo.com/",
-                            "https://fr.semrush.com/blog/",
-                            "https://www.smashingmagazine.com/",
-                            "https://www.webmarketing-com.com/",
-                            "https://www.webrankinfo.com/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Guidelines/Articles",
-                "links": [
-                    {
-                        "name": "Google Search Central",
-                        "url": [
-                            "https://developers.google.com/search/docs/advanced/guidelines/overview?hl=fr"
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "Performances/Optimisations": {
-        "items": [
-            {
-                "title": "Sites/Blogs",
-                "links": [
-                    {
-                        "url": ["https://calendar.perfplanet.com/"]
-                    }
-                ]
-            },
-            {
-                "title": "Outils",
-                "links": [
-                    {
-                        "url": [
-                            "https://developers.google.com/speed/pagespeed/insights/",
-                            "https://search.google.com/search-console/about?hl=fr",
-                            "https://search.google.com/test/mobile-friendly",
-                            "https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr",
-                            "https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma",
-                            "https://gtmetrix.com/",
-                            "https://www.dareboost.com/fr",
-                            "https://seositecheckup.com/tools/html-page-size-test",
-                            "https://www.bing.com/webmasters/about",
-                            "https://fr.semrush.com/blog/outils-seo-gratuits/",
-                            "https://www.webpagetest.org/",
-                            "http://yslow.org/",
-                            "https://seolyzer.io/fr/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Images",
-                "links": [
-                    {
-                        "url": [
-                            "https://www.smashingmagazine.com/2022/07/powerful-image-optimization-tools/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Empreinte carbone",
-                "links": [
-                    {
-                        "url": [
-                            "https://greenframe.io/",
-                            "https://github.com/CaenCamp/front-next-caencamp/discussions/21"
                         ]
                     }
                 ]
