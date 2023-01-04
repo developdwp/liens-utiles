@@ -162,10 +162,6 @@ nav {
             }
         }
     }
-
-    @media screen and (max-width: 1480px) {
-        display: none;
-    }
 }
 
 main {
@@ -368,6 +364,10 @@ footer {
         }
     }
 
+    nav {
+        display: none;
+    }
+
     footer {
         display: block;
         font-size: 1.6rem;
@@ -378,11 +378,6 @@ footer {
             align-items: start;
             gap: 3rem;
             list-style-type: none;
-
-            @media screen and (max-width: 768px) {
-                flex-direction: column;
-                align-items: center;
-            }
 
             li {
                 text-align: center;
@@ -406,6 +401,15 @@ footer {
                     margin-top: 0.5rem;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        ul {
+            flex-direction: column;
+            align-items: center;
         }
     }
 }
