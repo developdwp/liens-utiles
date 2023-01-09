@@ -34,6 +34,7 @@
                             "https://la-cascade.io/",
                             "https://www.matuzo.at/blog/",
                             "https://moderncss.dev/",
+                            "https://piccalil.li/tutorials/",
                             "https://www.sarasoueidan.com/blog/",
                             "https://www.stefanjudis.com/blog/",
                             "https://web.dev/blog/"
@@ -133,6 +134,10 @@
             {
                 "title": "Divers",
                 "links": [
+                    {
+                        "name": "Tests navigateurs/mobiles",
+                        "url": ["https://www.lambdatest.com/"]
+                    },
                     {
                         "name": "Analyse code CSS",
                         "url": [
@@ -832,8 +837,9 @@
                             "https://colorhunt.co/",
                             "https://coolors.co/palettes/trending",
                             "https://fffuel.co/pppalette/",
+                            "https://mycolor.space/",
                             "https://paletton.com/",
-                            "https://mycolor.space/"
+                            "https://pigment.shapefactory.co/"
                         ]
                     }
                 ]
@@ -948,6 +954,15 @@
                             "https://pattern.monster/",
                             "https://www.svgbackgrounds.com/"
                         ]
+                    }
+                ]
+            },
+            {
+                "title": "Divers",
+                "links": [
+                    {
+                        "name": "Filtres images",
+                        "url": ["https://photomosh.com/"]
                     }
                 ]
             }
