@@ -26,6 +26,7 @@
                             "https://css-tricks.com/archives/",
                             "https://davidwalsh.name/",
                             "https://www.freecodecamp.org/news/",
+                            "https://garden.bradwoods.io/",
                             "https://www.htmhell.dev/",
                             "https://iamvdo.me/blog",
                             "https://ishadeed.com/articles/",
@@ -45,6 +46,7 @@
                         "url": [
                             "https://www.youtube.com/@CSSWeekly",
                             "https://www.youtube.com/@ChromeDevs",
+                            "https://www.youtube.com/@CodingArtist",
                             "https://www.youtube.com/@KevinPowell",
                             "https://www.youtube.com/@LeDesignerduWeb",
                             "https://www.youtube.com/@NetNinja",
@@ -202,7 +204,6 @@
             }
         ]
     },
-
     "Accessibilité": {
         "items": [
             {
@@ -364,6 +365,7 @@
                             "https://www.youtube.com/@LeDesignerduWeb",
                             "https://www.youtube.com/@NetNinja",
                             "https://www.youtube.com/@PedroTechnologies",
+                            "https://www.youtube.com/@Steve8708",
                             "https://www.youtube.com/@WebDevSimplified"
                         ]
                     }
@@ -550,14 +552,6 @@
                 "title": "Apprentissage",
                 "links": [
                     {
-                        "name": "Formations",
-                        "info": "payantes",
-                        "url": [
-                            "https://www.udemy.com/course/react-formation-complete/"
-                        ]
-                    },
-
-                    {
                         "name": "Sites/Blogs",
                         "url": [
                             "https://beta.reactjs.org/learn",
@@ -573,37 +567,14 @@
                             "https://www.youtube.com/@DailyTuition",
                             "https://www.youtube.com/@LamaDev",
                             "https://www.youtube.com/@LeDesignerduWeb",
+                            "https://www.youtube.com/@melvynxdev",
                             "https://www.youtube.com/@NetNinja",
                             "https://www.youtube.com/@PedroTechnologies",
+                            "https://www.youtube.com/@Steve8708",
                             "https://www.youtube.com/@The_full_stack_junkie",
                             "https://www.youtube.com/@WebDevSimplified",
                             "https://www.youtube.com/@WesBos",
                             "https://www.youtube.com/@WrongAkram"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Exercices/Projets",
-                "links": [
-                    {
-                        "name": "10 Projets avec React",
-                        "info": "payants",
-                        "url": [
-                            "https://www.ecole-du-web.net/p/10-projets-react",
-                            "https://www.udemy.com/course/coder-10-projets-avec-react/"
-                        ]
-                    },
-                    {
-                        "name": "Authentification avec React + Firebase",
-                        "url": "https://youtu.be/boZJtNzRCDQ"
-                    },
-                    {
-                        "name": "Cloner Twitch avec React",
-                        "info": "payants",
-                        "url": [
-                            "https://www.ecole-du-web.net/p/cloner-twitch-avec-react",
-                            "https://www.udemy.com/course/cloner-twitch-avec-react/"
                         ]
                     }
                 ]
@@ -633,19 +604,19 @@
                         "url": ["https://www.framer.com/docs/use-scroll/"]
                     }
                 ]
-            }
-        ]
-    },
-    "Node.js": {
-        "items": [
+            },
             {
-                "title": "Apprentissage",
+                "title": "Framer Motion",
                 "links": [
                     {
-                        "name": "Thomas Gentilhomme",
-                        "url": [
-                            "https://docs.google.com/document/d/1JHgmEFkc8Py4XSuCB8_DQ5FFEJoogyeninFK6ucTd4o/edit"
-                        ]
+                        "name": "scrollex",
+                        "info": "librairie",
+                        "url": ["https://scrollex-docs.vercel.app/"]
+                    },
+                    {
+                        "name": "Framer motion",
+                        "info": "librairie",
+                        "url": ["https://www.framer.com/docs/use-scroll/"]
                     }
                 ]
             }
@@ -931,6 +902,7 @@
                             "https://ionic.io/ionicons",
                             "https://lordicon.com/",
                             "https://lucide.dev/",
+                            "https://www.mingcute.com/",
                             "https://remixicon.com/",
                             "https://www.streamlinehq.com/freebies",
                             "https://tablericons.com/",
@@ -1114,6 +1086,61 @@
             }
         ]
     },
+    "Emailing": {
+        "items": [
+            {
+                "title": "Sites/Blogs",
+                "links": [
+                    {
+                        "name": "",
+                        "url": ["https://www.hteumeuleu.com/blog/"]
+                    }
+                ]
+            },
+            {
+                "title": "Guidelines/Articles",
+                "links": [
+                    {
+                        "name": "",
+                        "url": [
+                            "https://github.com/hteumeuleu/email-guidelines",
+                            "https://stackoverflow.design/email/guidelines/design-best-practices/",
+                            "https://designmodo.com/html-css-emails/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Support propriétés CSS",
+                "links": [
+                    {
+                        "name": "Can i email",
+                        "url": "https://www.caniemail.com/features/css-pseudo-element-after/"
+                    },
+                    {
+                        "name": "Campaign Monitor",
+                        "url": "https://www.campaignmonitor.com/css/selectors/class-chaining/"
+                    },
+                    {
+                        "name": "Mailchimp",
+                        "url": "https://templates.mailchimp.com/resources/email-client-css-support/"
+                    }
+                ]
+            }
+        ]
+    },
+    "IA": {
+        "items": [
+            {
+                "title": "Outils",
+                "links": [
+                    {
+                        "url": "https://allthingsai.com/"
+                    }
+                ]
+            }
+        ]
+    },
     "Indépendant": {
         "items": [
             {
@@ -1207,49 +1234,6 @@
                     {
                         "name": "Outils",
                         "url": ["https://www.cookiebot.com/fr/"]
-                    }
-                ]
-            }
-        ]
-    },
-    "Emailing": {
-        "items": [
-            {
-                "title": "Sites/Blogs",
-                "links": [
-                    {
-                        "name": "",
-                        "url": ["https://www.hteumeuleu.com/blog/"]
-                    }
-                ]
-            },
-            {
-                "title": "Guidelines/Articles",
-                "links": [
-                    {
-                        "name": "",
-                        "url": [
-                            "https://github.com/hteumeuleu/email-guidelines",
-                            "https://stackoverflow.design/email/guidelines/design-best-practices/",
-                            "https://designmodo.com/html-css-emails/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Support propriétés CSS",
-                "links": [
-                    {
-                        "name": "Can i email",
-                        "url": "https://www.caniemail.com/features/css-pseudo-element-after/"
-                    },
-                    {
-                        "name": "Campaign Monitor",
-                        "url": "https://www.campaignmonitor.com/css/selectors/class-chaining/"
-                    },
-                    {
-                        "name": "Mailchimp",
-                        "url": "https://templates.mailchimp.com/resources/email-client-css-support/"
                     }
                 ]
             }
