@@ -36,6 +36,7 @@
                             "https://www.matuzo.at/blog/",
                             "https://moderncss.dev/",
                             "https://piccalil.li/tutorials/",
+                            "https://thinkdobecreate.com/",
                             "https://www.sarasoueidan.com/blog/",
                             "https://www.stefanjudis.com/blog/",
                             "https://web.dev/blog/"
@@ -171,6 +172,10 @@
                             "https://www.opengraph.xyz/",
                             "https://developers.facebook.com/tools/debug/"
                         ]
+                    },
+                    {
+                        "name": "SVG et propriétés",
+                        "url": ["https://fffuel.co/sssvg/"]
                     },
                     {
                         "name": "Checklists",
@@ -935,6 +940,10 @@
                     {
                         "name": "Filtres images",
                         "url": ["https://photomosh.com/"]
+                    },
+                    {
+                        "name": "Convertisseur Pixel Art",
+                        "url": ["https://www.pixelicious.xyz/"]
                     }
                 ]
             }
