@@ -176,7 +176,7 @@ Promise.all([
         // Github stars (footer & nav)
         // ************************ //
 
-        const purpose = 16; // 16 for first "Starstruck" achievements badge
+        const purpose = 128; // 128 for "Starstruck x2/Silver" achievements badge
         const starsNeeded = purpose - stargazers_count;
         if (stargazers_count < purpose) {
             const githubStars = document.querySelectorAll(".github-stars");

@@ -178,6 +178,10 @@
                         "url": ["https://fffuel.co/sssvg/"]
                     },
                     {
+                        "name": "La 3D en CSS",
+                        "url": ["https://garden.bradwoods.io/notes/css/3d"]
+                    },
+                    {
                         "name": "Checklists",
                         "url": [
                             "https://checklists.opquast.com/fr/assurance-qualite-web/",
@@ -627,6 +631,21 @@
             }
         ]
     },
+    "Node.js": {
+        "items": [
+            {
+                "title": "Apprentissage",
+                "links": [
+                    {
+                        "name": "Thomas Gentilhomme",
+                        "url": [
+                            "https://docs.google.com/document/d/1JHgmEFkc8Py4XSuCB8_DQ5FFEJoogyeninFK6ucTd4o/edit"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     "Webdesign": {
         "items": [
             {
@@ -653,6 +672,7 @@
                             "https://graphiste.com/blog",
                             "https://www.lapa.ninja/learn/",
                             "https://medium.com/@usemuzli",
+                            "https://www.nngroup.com/articles/",
                             "https://www.olybop.fr",
                             "https://onepagelove.com/articles",
                             "https://www.sketch.com/blog/",
@@ -1101,8 +1121,10 @@
                 "title": "Sites/Blogs",
                 "links": [
                     {
-                        "name": "",
-                        "url": ["https://www.hteumeuleu.com/blog/"]
+                        "url": [
+                            "https://www.hteumeuleu.com/blog/",
+                            "https://www.mailmodo.com/resources/"
+                        ]
                     }
                 ]
             },
