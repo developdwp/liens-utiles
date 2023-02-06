@@ -222,6 +222,10 @@
                         "name": "Sites/Blogs",
                         "url": [
                             "https://www.a11yproject.com/resources/",
+                            "https://www.accede-web.com/",
+                            "https://www.anysurfer.be/fr",
+                            "https://www.digitala11y.com/blog/",
+                            "https://monsido.com/blog",
                             "https://www.sarasoueidan.com/blog/",
                             "https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/",
                             "https://web.dev/learn/accessibility/"
@@ -234,11 +238,17 @@
                 "links": [
                     {
                         "name": "Checklists",
-                        "url": ["https://webaccessibilitychecklist.com/"]
+                        "url": [
+                            "https://webaccessibilitychecklist.com/",
+                            "https://www.accede-web.com/notices/"
+                        ]
                     },
                     {
                         "name": "Outils",
-                        "url": ["https://a11y-automation.dev/automated-tools"]
+                        "url": [
+                            "https://www.digitala11y.com/accessibility-tools-and-resources-for-designers/",
+                            "https://a11y-automation.dev/automated-tools"
+                        ]
                     }
                 ]
             }
