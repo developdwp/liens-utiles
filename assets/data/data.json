@@ -676,15 +676,18 @@
                             "https://www.arquen.fr",
                             "https://www.blogduwebdesign.com",
                             "https://bloguxdesigner.fr",
+                            "https://conceptseeker.com/previous-issues",
                             "https://designmodo.com",
                             "https://designstrategy.guide/blog/",
                             "https://www.envato.com",
                             "https://graphiste.com/blog",
                             "https://www.lapa.ninja/learn/",
+                            "https://www.learnui.design/blog/",
                             "https://medium.com/@usemuzli",
                             "https://www.nngroup.com/articles/",
                             "https://www.olybop.fr",
                             "https://onepagelove.com/articles",
+                            "https://pixeliart.fr/",
                             "https://www.sketch.com/blog/",
                             "https://www.smashingmagazine.com/",
                             "https://speckyboy.com",
@@ -843,6 +846,7 @@
                             "https://colorhunt.co/",
                             "https://coolors.co/palettes/trending",
                             "https://fffuel.co/pppalette/",
+                            "https://meodai.github.io/poline/",
                             "https://mycolor.space/",
                             "https://paletton.com/",
                             "https://pigment.shapefactory.co/"
@@ -878,8 +882,11 @@
                     {
                         "name": "Payantes",
                         "url": [
-                            "https://www.shutterstock.com/fr/",
-                            "https://stock.adobe.com/fr/",
+                            "https://123rf.com/",
+                            "https://depositphotos.com/",
+                            "https://www.dreamstime.com/",
+                            "https://www.shutterstock.com/",
+                            "https://stock.adobe.com/",
                             "https://www.vexels.com/"
                         ]
                     },
@@ -928,6 +935,7 @@
                             "https://fontawesome.com/search?m=free",
                             "https://fonts.google.com/icons",
                             "https://heroicons.com/",
+                            "https://hicon.me/",
                             "https://icofont.com/",
                             "https://icones.js.org/",
                             "https://iconmonstr.com/",
