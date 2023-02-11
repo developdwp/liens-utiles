@@ -48,6 +48,7 @@
                             "https://www.youtube.com/@CSSWeekly",
                             "https://www.youtube.com/@ChromeDevs",
                             "https://www.youtube.com/@CodingArtist",
+                            "https://www.youtube.com/@Hyperplexed",
                             "https://www.youtube.com/@KevinPowell",
                             "https://www.youtube.com/@LeDesignerduWeb",
                             "https://www.youtube.com/@NetNinja",
@@ -159,7 +160,10 @@
                     },
                     {
                         "name": "Générateur font-size clamp()",
-                        "url": ["https://clamp.font-size.app/"]
+                        "url": [
+                            "https://clamp.font-size.app/",
+                            "https://chrisburnell.com/clamp-calculator/"
+                        ]
                     },
                     {
                         "name": "Générateur favicon",
@@ -174,8 +178,11 @@
                         ]
                     },
                     {
-                        "name": "SVG et propriétés",
-                        "url": ["https://fffuel.co/sssvg/"]
+                        "name": "SVG, propriétés, optimisations",
+                        "url": [
+                            "https://fffuel.co/sssvg/",
+                            "https://css-tricks.com/tools-for-optimizing-svg/"
+                        ]
                     },
                     {
                         "name": "La 3D en CSS",
@@ -518,7 +525,8 @@
                     {
                         "url": [
                             "https://css-tricks.com/now-ever-might-not-need-jquery/",
-                            "https://sansjquery.fr/"
+                            "https://sansjquery.fr/",
+                            "https://youmightnotneedjquery.com/"
                         ]
                     }
                 ]
@@ -532,6 +540,7 @@
                 "links": [
                     {
                         "url": [
+                            "https://dev.to/perssondennis/complete-guide-to-make-you-a-regex-guru-3i1k",
                             "https://www.freecodecamp.org/news/regular-expressions-for-beginners/",
                             "https://regexlearn.com/",
                             "https://regexone.com/"
