@@ -25,6 +25,13 @@ Néanmoins, gardez à l'esprit que je ne mettrais pas de ressources qui feraient
 
 J'essaie de remercier les contributeurs, au mieux, avec une très modeste visibilité dans la section `Merci à`, ci-dessous, et une mention dans les messages des commits (qui apparaissent également dans les _"Notes de mise à jour"_ de la page/liste).
 
+# Mises à jour
+
+Généralement : 1 fois par semaine.  
+(Au minimum du minimum : une fois par mois).
+
+Vous pouvez retrouver le détail des **derniers** ajouts via les `Notes de mise à jour` depuis [la page](https://aelweak.github.io/liens-utiles/) (tout en haut).
+
 # Fonctionnalités à venir
 
 La liste est déjà un peu longue mais des améliorations "d'UX" (tris, filtres, structure, etc...) sont prévues, pour rendre le tout plus "pratique".  

@@ -139,6 +139,12 @@
                 "title": "Divers",
                 "links": [
                     {
+                        "name": "Guide responsive",
+                        "url": [
+                            "https://ishadeed.com/article/responsive-design/"
+                        ]
+                    },
+                    {
                         "name": "Tests navigateurs/mobiles",
                         "url": ["https://www.lambdatest.com/"]
                     },
@@ -246,6 +252,8 @@
                     {
                         "name": "Checklists",
                         "url": [
+                            "https://accessibilite.numerique.gouv.fr/obligations/evaluation-conformite/",
+                            "https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/",
                             "https://webaccessibilitychecklist.com/",
                             "https://www.accede-web.com/notices/"
                         ]
@@ -253,6 +261,7 @@
                     {
                         "name": "Outils",
                         "url": [
+                            "https://accessibilite.numerique.gouv.fr/ressources/kit-audit/",
                             "https://www.digitala11y.com/accessibility-tools-and-resources-for-designers/",
                             "https://a11y-automation.dev/automated-tools"
                         ]
@@ -674,8 +683,7 @@
                         "name": "Introduction/Guides",
                         "url": [
                             "https://designmodo.com/website-design/",
-                            "https://uxplanet.org/the-best-resources-for-learning-web-design-2c1d4896b661",
-                            "https://www.youtube.com/watch?v=B-ytMSuwbf8"
+                            "https://uxplanet.org/the-best-resources-for-learning-web-design-2c1d4896b661"
                         ]
                     },
                     {
@@ -754,6 +762,7 @@
                     {
                         "name": "Exemples",
                         "url": [
+                            "https://www.designsystemsforfigma.com/",
                             "https://www.smashingmagazine.com/2022/11/design-systems-inspiration-resources-case-studies/",
                             "https://uxplanet.org/10-figma-design-systems-to-help-you-build-products-10x-faster-24e45ee33e71",
                             "https://designstrategy.guide/design-management/the-ultimate-design-systems-resources-list/"
@@ -840,7 +849,10 @@
                 "title": "Études de cas",
                 "links": [
                     {
-                        "url": ["https://growth.design/case-studies"]
+                        "url": [
+                            "https://brandingstyleguides.com/",
+                            "https://growth.design/case-studies"
+                        ]
                     }
                 ]
             },
@@ -896,6 +908,7 @@
                             "https://www.dreamstime.com/",
                             "https://www.shutterstock.com/",
                             "https://stock.adobe.com/",
+                            "https://www.stocksy.com/",
                             "https://www.vexels.com/"
                         ]
                     },
@@ -937,6 +950,7 @@
                 "links": [
                     {
                         "url": [
+                            "https://atlasicons.vectopus.com/",
                             "https://css.gg/app",
                             "https://dryicons.com/",
                             "https://feathericons.com/",
